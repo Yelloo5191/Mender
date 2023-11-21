@@ -63,7 +63,307 @@
     "currentPlatform": "GDevelop JS platform"
   },
   "resources": {
-    "resources": [],
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Appear_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Appear_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/b586379c7f49258a7e66ce7e7c19a08c7220fdc24dc5a2c6d0eb1b12109d47d7_Ghost_Appear_1.png",
+          "name": "Ghost_Appear_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Appear_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Appear_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/9466a27abaf4fe14cdea52a91a7153773a56e1c90b99e773e630bcb5542aa4e5_Ghost_Appear_2.png",
+          "name": "Ghost_Appear_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Appear_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Appear_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/e7c834c8f710aa83f323b7ed9267ca4442ed353de7451d64c43d66b4c10dac41_Ghost_Appear_3.png",
+          "name": "Ghost_Appear_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Appear_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Appear_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/31de081f742c7fd49b71c40649df764e2838bbb7d1346a2d4aee0821e4657a75_Ghost_Appear_4.png",
+          "name": "Ghost_Appear_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Desappear_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Desappear_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/31de081f742c7fd49b71c40649df764e2838bbb7d1346a2d4aee0821e4657a75_Ghost_Desappear_1.png",
+          "name": "Ghost_Desappear_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Desappear_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Desappear_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/e7c834c8f710aa83f323b7ed9267ca4442ed353de7451d64c43d66b4c10dac41_Ghost_Desappear_2.png",
+          "name": "Ghost_Desappear_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Desappear_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Desappear_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/9466a27abaf4fe14cdea52a91a7153773a56e1c90b99e773e630bcb5542aa4e5_Ghost_Desappear_3.png",
+          "name": "Ghost_Desappear_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Desappear_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Desappear_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/b586379c7f49258a7e66ce7e7c19a08c7220fdc24dc5a2c6d0eb1b12109d47d7_Ghost_Desappear_4.png",
+          "name": "Ghost_Desappear_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Hit_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Hit_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/ef6d1bb2732cd65deb652acea3bab2c9939db3ecdb335e8d3c1b80c58c4ffd3e_Ghost_Hit_1.png",
+          "name": "Ghost_Hit_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Hit_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Hit_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/ef6d1bb2732cd65deb652acea3bab2c9939db3ecdb335e8d3c1b80c58c4ffd3e_Ghost_Hit_2.png",
+          "name": "Ghost_Hit_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Hit_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Hit_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/336a0284dc8dcc4acfb718a513a85cd3d0fc6fbbab127c752c8c8e78ee15859e_Ghost_Hit_3.png",
+          "name": "Ghost_Hit_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Hit_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Hit_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/3c10e3206c5687d7126e446a45d4ac599438e93e2a4affd36c40f52a1ccb19a7_Ghost_Hit_4.png",
+          "name": "Ghost_Hit_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Hit_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Hit_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/22e9c7c16570a7dee04de144344a6ffd15929be5adce9578eed79646a8465e62_Ghost_Hit_5.png",
+          "name": "Ghost_Hit_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_1.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/ecd0e443c9103805d4396aab2ffac3c291a5035b84b2d5184471f41a2d87f7d3_Ghost_Idle_1.png",
+          "name": "Ghost_Idle_1.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_10.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/0f48e54bca2d4afe7ae3bd00700ef0c6de323cb8285378e91eb983b12bc94bef_Ghost_Idle_10.png",
+          "name": "Ghost_Idle_10.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_2.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/5b34717313a4df38239aee55de2396576bdfec4976aec724db8c9b16378d4140_Ghost_Idle_2.png",
+          "name": "Ghost_Idle_2.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_3.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/a40517090a20993ea35fc47c9e01ffb138fc440e0ce5820fcc669ec8d142d321_Ghost_Idle_3.png",
+          "name": "Ghost_Idle_3.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_4.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/a40517090a20993ea35fc47c9e01ffb138fc440e0ce5820fcc669ec8d142d321_Ghost_Idle_4.png",
+          "name": "Ghost_Idle_4.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_5.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/a40517090a20993ea35fc47c9e01ffb138fc440e0ce5820fcc669ec8d142d321_Ghost_Idle_5.png",
+          "name": "Ghost_Idle_5.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_6.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/5b34717313a4df38239aee55de2396576bdfec4976aec724db8c9b16378d4140_Ghost_Idle_6.png",
+          "name": "Ghost_Idle_6.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_7.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/c294adf582fd549968079fa028f797e8504dc7740edb6271af896a4b539a7aa9_Ghost_Idle_7.png",
+          "name": "Ghost_Idle_7.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_8.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/0f48e54bca2d4afe7ae3bd00700ef0c6de323cb8285378e91eb983b12bc94bef_Ghost_Idle_8.png",
+          "name": "Ghost_Idle_8.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ghost_Idle_9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Ghost_Idle_9.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pixel Adventure Pack/Enemies/Ghost/0f48e54bca2d4afe7ae3bd00700ef0c6de323cb8285378e91eb983b12bc94bef_Ghost_Idle_9.png",
+          "name": "Ghost_Idle_9.png"
+        }
+      }
+    ],
     "resourceFolders": []
   },
   "objects": [],
@@ -98,10 +398,921 @@
       },
       "objectsGroups": [],
       "variables": [],
-      "instances": [],
-      "objects": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 13,
+          "height": 383,
+          "layer": "",
+          "name": "Ghost",
+          "persistentUuid": "fc79c9cf-5c8e-4e8e-8107-69962e96e918",
+          "width": 562,
+          "x": 584,
+          "y": 561,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "38f53745eeaea311c08b3faef32d1f44b6a078b82899ff962468c6767cd79e4f",
+          "name": "Ghost",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Idle",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.1,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Idle_10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Hit",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.2,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Hit_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Hit_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Hit_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Hit_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Hit_5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Appear",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Appear_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Appear_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Appear_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Appear_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Desappear",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.25,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Desappear_1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Desappear_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Desappear_3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Ghost_Desappear_4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 6,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 3
+                          },
+                          {
+                            "x": 35,
+                            "y": 30
+                          },
+                          {
+                            "x": 6,
+                            "y": 30
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
       "objectsFolderStructure": {
-        "folderName": "__ROOT"
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "Ghost"
+          }
+        ]
       },
       "events": [
         {
