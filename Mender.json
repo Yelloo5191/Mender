@@ -476,6 +476,273 @@
         "metadata": "",
         "name": "assets/fonts/rainyhearts.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption9.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/disruption10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/disruption10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/world/puzzle_map1.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets/world/puzzle_map1.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Blank Normal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blank Normal.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Dark/Blanks/44ad7e37a9e344bd1b2dbf39326c145dfe5eaf769fdac4187d514e011b906ad2_Blank Normal.png",
+          "name": "Blank Normal.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Eight.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Eight.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/5de2fb9ed7682368956ab1dfe8cbf114e3381700e84a53a4ba710d5166196671_Number Key_Eight.png",
+          "name": "Number Key_Eight.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Five.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Five.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/c21c4ed5a07494efd3cf27ac3348d93197e51afdb0f2ff29e7b8c106a11cd405_Number Key_Five.png",
+          "name": "Number Key_Five.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Four.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Four.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/323ee4d9fbdb217dbf4c4df594e7ed47e9b07a068448e183da3ad87897bd22bd_Number Key_Four.png",
+          "name": "Number Key_Four.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Nine.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Nine.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/b5148c8a40955e855fc1a70bb053441b60e78fe08679328fe02cea443d57a6bf_Number Key_Nine.png",
+          "name": "Number Key_Nine.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_One.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_One.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/d91f93b62e6e71d64895ad61d1f55534717d6ee9f9dfccf9b70bffc660c69d2c_Number Key_One.png",
+          "name": "Number Key_One.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Seven.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Seven.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/7b678d99ca04801ab4a0f99ba6f7812519ce18cdc63cf8a96847529fdc4ff879_Number Key_Seven.png",
+          "name": "Number Key_Seven.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Six.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Six.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/b6c60cea1dd4fc65dfa8156950afb58570b4f916051c33610c63eebd9a81273f_Number Key_Six.png",
+          "name": "Number Key_Six.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Three.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Three.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/52c2235bb081caf0faff68d8666829e44dac4a81f6e83a0029a4528d3887d876_Number Key_Three.png",
+          "name": "Number Key_Three.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Two.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Two.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/fda2767c2e2f7c5abd78a3450fd1e56099ac7e9d2cbb94d630957f8b29d8fece_Number Key_Two.png",
+          "name": "Number Key_Two.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Number Key_Zero.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Number Key_Zero.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Keyboard/Light/f0ecb363f86bf64e1e2bfdfbdd7b03fb0d5963bb9f820fd2f0b5906340c10195_Number Key_Zero.png",
+          "name": "Number Key_Zero.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Circle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Circle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS3/99947bdd376618ccb8cd57ba03743b778a9e3eb228bb849b9b1bac582848ad6c_Circle.png",
+          "name": "Circle.png"
+        }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Triangle.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Triangle.png",
+        "smoothed": false,
+        "userAdded": false,
+        "origin": {
+          "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS Move/e5930ec08353d859245617a72651216fd06f0c256e3772fcafc6bc0ce8d53917_Triangle.png",
+          "name": "Triangle.png"
+        }
       }
     ],
     "resourceFolders": []
@@ -507,7 +774,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.28442851136303826,
+        "zoomFactor": 0.13264864065533954,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -604,6 +871,22 @@
           "x": 453,
           "y": 1011,
           "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 10,
+          "height": 611,
+          "layer": "Disruption",
+          "name": "disruption1",
+          "persistentUuid": "c2a3b5f8-feb1-4aff-97b9-8e96a2eb8ece",
+          "width": 611,
+          "x": 2261,
+          "y": 223,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -907,6 +1190,390 @@
             "g": 255,
             "r": 255
           }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "disruption1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Disrupted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/disruption10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -918,6 +1585,9 @@
               {
                 "folderName": "1",
                 "children": [
+                  {
+                    "objectName": "disruption1"
+                  },
                   {
                     "objectName": "Trigger1"
                   }
@@ -945,6 +1615,41 @@
         ]
       },
       "events": [
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Hide the Alert text"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Alerts"
+              ]
+            }
+          ]
+        },
         {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
@@ -1067,6 +1772,18 @@
             },
             {
               "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Disruption\"",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
@@ -1125,11 +1842,59 @@
               "actions": [
                 {
                   "type": {
-                    "value": "SetSceneVariableAsBoolean"
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
                   },
                   "parameters": [
-                    "Puzzles_State.1",
-                    "True"
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"A disruption. Press e to attempt to resolve it.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Puzzle 1\"",
+                        ""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -1177,29 +1942,6 @@
                     "\"Time Visible\""
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Alerts"
               ]
             }
           ]
@@ -1390,6 +2132,38 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Disruption",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "Text",
           "renderingType": "",
           "visibility": true,
@@ -1451,10 +2225,2227 @@
           "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Puzzle_321",
+      "name": "Puzzle 1",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {
+        "grid": false,
+        "gridType": "rectangular",
+        "gridWidth": 32,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridColor": 10401023,
+        "gridAlpha": 0.8,
+        "snap": false,
+        "zoomFactor": 0.5434551608367515,
+        "windowMask": false
+      },
+      "objectsGroups": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "SelectedNumber",
+          "type": "number",
+          "value": 0
+        }
+      ],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 2689,
+          "layer": "",
+          "locked": true,
+          "name": "World",
+          "persistentUuid": "a0969e6b-24e9-4b4a-8caa-09b68cd25b24",
+          "sealed": true,
+          "width": 2689,
+          "x": -670,
+          "y": -794,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BlankNormal",
+          "persistentUuid": "e8605f34-7acc-400b-b3e8-165df8ef22ae",
+          "width": 0,
+          "x": 729,
+          "y": 666,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BlankNormal",
+          "persistentUuid": "8a946425-35bb-4869-b972-82cdc91f918b",
+          "width": 0,
+          "x": 832,
+          "y": 665,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BlankNormal",
+          "persistentUuid": "a52e1bec-761c-4ccd-a2c1-7658d776536c",
+          "width": 0,
+          "x": 937,
+          "y": 664,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "BlankNormal",
+          "persistentUuid": "35a1ef5d-a065-4a42-98ac-06f3cbfa07ab",
+          "width": 0,
+          "x": 1040,
+          "y": 663,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NumberKey",
+          "persistentUuid": "2b511d99-7c69-403e-b0cb-62a4f161bb80",
+          "width": 0,
+          "x": 750,
+          "y": 468,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NumberKey",
+          "persistentUuid": "19eb71f0-82ea-4eb8-b4e2-f107d1b1d3b9",
+          "width": 0,
+          "x": 840,
+          "y": 467,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NumberKey",
+          "persistentUuid": "0de92b01-75bd-4b94-9fb6-00988ba31f33",
+          "width": 0,
+          "x": 1021,
+          "y": 465,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "NumberKey",
+          "persistentUuid": "3f11ac7f-de33-45fb-85e8-bc9dc8e7572c",
+          "width": 0,
+          "x": 931,
+          "y": 466,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Circle",
+          "persistentUuid": "2c98a64e-d44d-4c90-8f2a-279ff450ad7e",
+          "width": 0,
+          "x": 1211,
+          "y": 661,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "Triangle",
+          "persistentUuid": "370f7578-be2e-487e-a3b9-19133cc73c36",
+          "width": 0,
+          "x": 1213,
+          "y": 659,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "assetStoreId": "",
+          "name": "World",
+          "type": "TileMap::TileMap",
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "content": {
+            "tilemapJsonFile": "assets/world/puzzle_map1.json",
+            "tilesetJsonFile": "",
+            "tilemapAtlasImage": "assets/tiles/tilemap.png",
+            "displayMode": "visible",
+            "layerIndex": 0,
+            "levelIndex": 0,
+            "animationSpeedScale": 1,
+            "animationFps": 4
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "9a599ebf7d87bb6d467ee385c6503b7190083b5ca39cff23515fa9cd1db3aee7",
+          "name": "BlankNormal",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Blank Normal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "2fb37ff344758836480e98dfb2fca27dfba3150d83fec5dc5a226b5189c822b5",
+          "name": "NumberKey",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "checkCollisionMask": true,
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
+          "animations": [
+            {
+              "name": "Eight",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Eight.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Five",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Five.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Four",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Four.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Nine",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Nine.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "One",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_One.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Seven",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Seven.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Six",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Six.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Three",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Three.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Two",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Two.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "Zero",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Number Key_Zero.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 14
+                          },
+                          {
+                            "x": 88,
+                            "y": 86
+                          },
+                          {
+                            "x": 12,
+                            "y": 86
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "420f37c262ed43753b45191f0bd38de5ea88a716e4cf183da93929c9b3b401c8",
+          "name": "Circle",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Circle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 91,
+                            "y": 9
+                          },
+                          {
+                            "x": 91,
+                            "y": 91
+                          },
+                          {
+                            "x": 9,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "70f89c2d1ec9357bfc392c98e178ff3e07ee558a7f68535015037121c2f5bbea",
+          "name": "Triangle",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Triangle.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 9
+                          },
+                          {
+                            "x": 91,
+                            "y": 9
+                          },
+                          {
+                            "x": 91,
+                            "y": 91
+                          },
+                          {
+                            "x": 9,
+                            "y": 91
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT",
+        "children": [
+          {
+            "objectName": "World"
+          },
+          {
+            "objectName": "BlankNormal"
+          },
+          {
+            "objectName": "NumberKey"
+          },
+          {
+            "objectName": "Circle"
+          },
+          {
+            "objectName": "Triangle"
+          }
+        ]
+      },
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "NumberKey",
+                "BlankNormal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "NumberKey",
+                "=",
+                "BlankNormal.X()",
+                "=",
+                "BlankNormal.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Triangle"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        },
+        {
+          "type": "BuiltinCommonInstructions::Repeat",
+          "repeatExpression": "SceneInstancesCount(BlankNormal)",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Triangle",
+                ""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "BlankNormal",
+                    "NumberKey",
+                    "",
+                    "",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Triangle"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "MouseButtonPressed"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::ForEach",
+              "object": "NumberKey",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CursorY"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "NumberKey.Y()",
+                    "",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CursorX"
+                  },
+                  "parameters": [
+                    "",
+                    "=",
+                    "NumberKey.X()",
+                    "",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        }
+      ]
     }
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Movement",
+      "extensionNamespace": "",
+      "fullName": "Draggable (for physics objects)",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjcsMTFjMC0yLTIuMi0zLjYtNS42LTQuNEMyMC42LDMuMiwxOSwxLDE3LDFzLTMuNiwyLjItNC40LDUuNkM5LjIsNy40LDcsOSw3LDExYzAsMiwyLjIsMy42LDUuNiw0LjQNCgljMC4zLDEuMiwwLjYsMi4yLDEuMSwzLjFjMC4zLDAuNSwwLjksMC43LDEuNCwwLjRjMC41LTAuMywwLjctMC45LDAuNC0xLjRjLTAuMy0wLjUtMC41LTEuMS0wLjctMS44YzAuNywwLjEsMS41LDAuMSwyLjIsMC4xDQoJYzAuOCwwLDEuNSwwLDIuMi0wLjFjLTAuMywxLTAuNywxLjktMS4xLDIuNWMtMC4zLDAuNC0wLjIsMS4xLDAuMiwxLjRjMC4yLDAuMSwwLjQsMC4yLDAuNiwwLjJjMC4zLDAsMC42LTAuMSwwLjgtMC40DQoJYzAuNy0xLDEuMy0yLjQsMS43LTRDMjQuOCwxNC42LDI3LDEzLDI3LDExeiBNMTcsM2MwLjcsMCwxLjYsMS4yLDIuMiwzLjNjLTAuNy0wLjEtMS41LTAuMS0yLjItMC4xcy0xLjUsMC0yLjIsMC4xDQoJQzE1LjQsNC4yLDE2LjMsMywxNywzeiBNOSwxMWMwLTAuNywxLjItMS42LDMuMy0yLjJjLTAuMSwwLjctMC4xLDEuNS0wLjEsMi4yYzAsMC44LDAsMS41LDAuMSwyLjJDMTAuMiwxMi42LDksMTEuNyw5LDExeiBNMTcsMTMuOQ0KCWMtMSwwLTEuOS0wLjEtMi43LTAuMmMtMC4xLTAuOC0wLjItMS43LTAuMi0yLjdjMC0xLDAuMS0xLjksMC4yLTIuN0MxNS4xLDguMiwxNiw4LjEsMTcsOC4xczEuOSwwLjEsMi43LDAuMg0KCWMwLjEsMC44LDAuMiwxLjcsMC4yLDIuN2MwLDAuOS0wLjEsMS44LTAuMiwyLjdDMTguOSwxMy44LDE4LDEzLjksMTcsMTMuOXogTTIxLjcsMTMuMmMwLjEtMC43LDAuMS0xLjUsMC4xLTIuMg0KCWMwLTAuOCwwLTEuNS0wLjEtMi4yQzIzLjgsOS40LDI1LDEwLjMsMjUsMTFDMjUsMTEuNywyMy44LDEyLjYsMjEuNywxMy4yeiIvPg0KPHBhdGggZD0iTTI5LjksMTcuNUMyOS43LDE3LjIsMjkuNCwxNywyOSwxN2MtMi4yLDAtNC4zLDEtNS42LDIuOEwyMi41LDIxYy0xLjEsMS4zLTIuOCwyLTQuNSwyaC0zYy0wLjYsMC0xLTAuNC0xLTFzMC40LTEsMS0xaDEuOQ0KCWMxLjYsMCwzLjEtMS4zLDMuMS0yLjljMCwwLDAtMC4xLDAtMC4xYzAtMC41LTAuNS0xLTEtMWwtNi4xLDBjLTMuNiwwLTYuNSwxLjYtOC4xLDQuMmwtMi43LDQuMmMtMC4yLDAuMy0wLjIsMC43LDAsMWwzLDUNCgljMC4xLDAuMiwwLjQsMC40LDAuNiwwLjVjMC4xLDAsMC4xLDAsMC4yLDBjMC4yLDAsMC40LTAuMSwwLjYtMC4yYzMuOC0yLjUsOC4yLTMuOCwxMi43LTMuOGMzLjMsMCw2LjMtMS44LDcuOS00LjdsMi43LTQuOA0KCUMzMCwxOC4yLDMwLDE3LjgsMjkuOSwxNy41eiIvPg0KPC9zdmc+DQo=",
+      "name": "DraggablePhysics",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/Virtual Reality/Virtual Reality_hand_vr_ar_360.svg",
+      "shortDescription": "Drag a physics object with the mouse (or touch).",
+      "version": "1.2.0",
+      "description": [
+        "Enables players to click and drag on physics objects to move them.  The object retains velocity when the click is released, allowing players to fling objects across the screen.",
+        "",
+        "Note:",
+        "- The default \"draggable\" behavior will not work on objects with the physics behavior. This extension should be used instead.",
+        "- This extension will only work on objects that have the physics behavior.",
+        "- Kinematic physics mode is incompatible with this extension. The object will be changed to dynamic mode.",
+        "",
+        "The Parking Jam example uses this extension ([open the project online](https://editor.gdevelop.io/?project=example://parking-jam))."
+      ],
+      "origin": {
+        "identifier": "DraggablePhysics",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "physics",
+        "drag",
+        "mouse",
+        "pointer",
+        "cursor",
+        "touch",
+        "physics",
+        "object",
+        "joint",
+        "fling"
+      ],
+      "authorIds": [
+        "gqDaZjCfevOOxBYkK6zlhtZnXCg1"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "Drag a physics object with the mouse (or touch).",
+          "fullName": "Draggable (for physics objects)",
+          "name": "DraggablePhysics",
+          "objectType": "",
+          "eventsFunctions": [
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "doStepPreEvents",
+              "sentence": "",
+              "events": [
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Change \"kinematic\" to \"dynamic\" to prevent crash",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "Physics2::IsKinematic"
+                          },
+                          "parameters": [
+                            "Object",
+                            "PhysicsBehavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::SetDynamic"
+                          },
+                          "parameters": [
+                            "Object",
+                            "PhysicsBehavior"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                },
+                {
+                  "colorB": 228,
+                  "colorG": 176,
+                  "colorR": 74,
+                  "creationTime": 0,
+                  "name": "Mouse",
+                  "source": "",
+                  "type": "BuiltinCommonInstructions::Group",
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Create mouse joints and save the joint ID"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggablePhysics::DraggablePhysics::PropertyEnableAutomaticDragging"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [],
+                      "events": [
+                        {
+                          "type": "BuiltinCommonInstructions::Standard",
+                          "conditions": [
+                            {
+                              "type": {
+                                "value": "MouseButtonFromTextPressed"
+                              },
+                              "parameters": [
+                                "",
+                                "Object.Behavior::PropertyMouseButton()"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "BuiltinCommonInstructions::Once"
+                              },
+                              "parameters": []
+                            }
+                          ],
+                          "actions": [],
+                          "events": [
+                            {
+                              "type": "BuiltinCommonInstructions::Standard",
+                              "conditions": [
+                                {
+                                  "type": {
+                                    "inverted": true,
+                                    "value": "DraggablePhysics::DraggablePhysics::IsBeingDragged"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    ""
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "SourisSurObjet"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "",
+                                    "",
+                                    ""
+                                  ]
+                                }
+                              ],
+                              "actions": [
+                                {
+                                  "type": {
+                                    "value": "Physics2::AddMouseJoint"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "PhysicsBehavior",
+                                    "MouseX(Object.Layer(),0)",
+                                    "MouseY(Object.Layer(),0)",
+                                    "Object.Behavior::PropertyMaxForce()",
+                                    "Object.Behavior::PropertyFrequency()",
+                                    "Object.Behavior::PropertyDamping()",
+                                    "__DraggablePhysics.MouseJointID"
+                                  ]
+                                },
+                                {
+                                  "type": {
+                                    "value": "DraggablePhysics::DraggablePhysics::SetPropertyMouseJointID"
+                                  },
+                                  "parameters": [
+                                    "Object",
+                                    "Behavior",
+                                    "=",
+                                    "Variable(__DraggablePhysics.MouseJointID)"
+                                  ]
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Delete the mouse joint"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggablePhysics::DraggablePhysics::PropertyEnableAutomaticDragging"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "MouseButtonFromTextReleased"
+                          },
+                          "parameters": [
+                            "",
+                            "Object.Behavior::PropertyMouseButton()"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "DraggablePhysics::DraggablePhysics::ReleaseDrag"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Comment",
+                      "color": {
+                        "b": 109,
+                        "g": 230,
+                        "r": 255,
+                        "textB": 0,
+                        "textG": 0,
+                        "textR": 0
+                      },
+                      "comment": "Update the position of the mouse joint to follow the mouse"
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "DraggablePhysics::DraggablePhysics::IsBeingDragged"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "Physics2::MouseJointTarget"
+                          },
+                          "parameters": [
+                            "Object",
+                            "PhysicsBehavior",
+                            "Object.Behavior::PropertyMouseJointID()",
+                            "MouseX(Object.Layer(),0)",
+                            "MouseY(Object.Layer(),0)"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "parameters": []
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Start dragging object.",
+              "fullName": "Start dragging object",
+              "functionType": "Action",
+              "name": "StartDragging",
+              "sentence": "Start dragging (physics) _PARAM0_ ",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "DraggablePhysics::DraggablePhysics::IsBeingDragged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::AddMouseJoint"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "MouseX(Object.Layer(),0)",
+                        "MouseY(Object.Layer(),0)",
+                        "Object.Behavior::PropertyMaxForce()",
+                        "Object.Behavior::PropertyFrequency()",
+                        "Object.Behavior::PropertyDamping()",
+                        "__DraggablePhysics.MouseJointID"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyMouseJointID"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "Variable(__DraggablePhysics.MouseJointID)"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Release dragged object.",
+              "fullName": "Release dragged object",
+              "functionType": "Action",
+              "name": "ReleaseDrag",
+              "sentence": "Release _PARAM0_ from being dragged (physics)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::IsBeingDragged"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Physics2::Remove joint"
+                      },
+                      "parameters": [
+                        "Object",
+                        "PhysicsBehavior",
+                        "Object.Behavior::PropertyMouseJointID()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyMouseJointID"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "0"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if object is being dragged.",
+              "fullName": "Is being dragged",
+              "functionType": "Condition",
+              "name": "IsBeingDragged",
+              "sentence": "_PARAM0_ is being dragged (physics)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::PropertyMouseJointID"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "Action",
+              "name": "onDeActivate",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::ReleaseDrag"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the mouse button used to move the object.",
+              "fullName": "Mouse button",
+              "functionType": "ExpressionAndCondition",
+              "group": "Draggable (for physics objects) configuration",
+              "name": "MouseButton",
+              "sentence": "the dragging mouse button",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnString"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMouseButton()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "supplementaryInformation": "[\"Left\",\"Right\",\"Middle\"]",
+                "type": "stringWithSelector"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MouseButton",
+              "name": "SetMouseButton",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyMouseButton"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsString(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the maximum joint force (in Newtons) of the object.",
+              "fullName": "Maximum force",
+              "functionType": "ExpressionAndCondition",
+              "group": "Draggable configuration",
+              "name": "MaxForce",
+              "sentence": "the maximum force",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyMaxForce()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "MaxForce",
+              "name": "SetMaxForce",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyMaxForce"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the joint frequency (per second) of the object.",
+              "fullName": "Frequency",
+              "functionType": "ExpressionAndCondition",
+              "group": "Draggable configuration",
+              "name": "Frequency",
+              "sentence": "the frequency",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyFrequency()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Frequency",
+              "name": "SetFrequency",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyFrequency"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "the joint damping ratio (range: 0 to 1) of the object. ",
+              "fullName": "Damping ratio",
+              "functionType": "ExpressionAndCondition",
+              "group": "Draggable configuration",
+              "name": "Damping",
+              "sentence": "the damping ratio (range: 0 to 1)",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnNumber"
+                      },
+                      "parameters": [
+                        "Object.Behavior::PropertyDamping()"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "expressionType": {
+                "type": "expression"
+              },
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "fullName": "",
+              "functionType": "ActionWithOperator",
+              "getterName": "Damping",
+              "name": "SetDamping",
+              "sentence": "",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyDamping"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "GetArgumentAsNumber(\"Value\")"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Check if automatic dragging is enabled.",
+              "fullName": "Automatic dragging",
+              "functionType": "Condition",
+              "group": "Draggable (for physics objects) configuration",
+              "name": "IsAutomaticDraggingEnabled",
+              "sentence": "Automatic dragging is enabled on _PARAM0_ ",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::PropertyEnableAutomaticDragging"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetReturnBoolean"
+                      },
+                      "parameters": [
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            },
+            {
+              "description": "Enable (or disable) automatic dragging with the mouse or touch.",
+              "fullName": "Enable (or disable) automatic dragging",
+              "functionType": "Action",
+              "group": "Draggable (for physics objects) configuration",
+              "name": "SetEnableAutomaticDragging",
+              "sentence": "Enable automatic dragging on _PARAM0_: _PARAM2_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyEnableAutomaticDragging"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GetArgumentAsBoolean"
+                      },
+                      "parameters": [
+                        "\"Value\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "DraggablePhysics::DraggablePhysics::SetPropertyEnableAutomaticDragging"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "yes"
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "DraggablePhysics::DraggablePhysics",
+                  "type": "behavior"
+                },
+                {
+                  "defaultValue": "yes",
+                  "description": "EnableAutomaticDragging",
+                  "name": "Value",
+                  "optional": true,
+                  "type": "yesorno"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [
+            {
+              "value": "",
+              "type": "Behavior",
+              "label": "Physics behavior",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Physics2::Physics2Behavior"
+              ],
+              "hidden": false,
+              "name": "PhysicsBehavior"
+            },
+            {
+              "value": "Left",
+              "type": "Choice",
+              "label": "Mouse button",
+              "description": "",
+              "group": "",
+              "extraInformation": [
+                "Left",
+                "Right",
+                "Middle"
+              ],
+              "hidden": false,
+              "name": "MouseButton"
+            },
+            {
+              "value": "500",
+              "type": "Number",
+              "unit": "Newton",
+              "label": "Maximum force",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "MaxForce"
+            },
+            {
+              "value": "10",
+              "type": "Number",
+              "label": "Frequency (Hz) ",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Frequency"
+            },
+            {
+              "value": "1",
+              "type": "Number",
+              "label": "Damping ratio (Range: 0 to 1)",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "Damping"
+            },
+            {
+              "value": "",
+              "type": "Number",
+              "label": "",
+              "description": "",
+              "group": "",
+              "extraInformation": [],
+              "hidden": true,
+              "name": "MouseJointID"
+            },
+            {
+              "value": "true",
+              "type": "Boolean",
+              "label": "Enable automatic dragging",
+              "description": "If automatic dragging is disabled, use the \"Start drag\" and \"Release drag\" actions.",
+              "group": "",
+              "extraInformation": [],
+              "hidden": false,
+              "name": "EnableAutomaticDragging"
+            }
+          ],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "",
       "category": "Input",
