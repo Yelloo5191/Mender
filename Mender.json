@@ -743,6 +743,42 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Xelu Free Controller and Key Prompts/Console Inputs/PS Move/e5930ec08353d859245617a72651216fd06f0c256e3772fcafc6bc0ce8d53917_Triangle.png",
           "name": "Triangle.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/numbers_slot1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/numbers_slot1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/numbers_slot2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/numbers_slot2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/numbers_slot3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/numbers_slot3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/numbers_slot4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type1/numbers_slot4.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -774,7 +810,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.13264864065533954,
+        "zoomFactor": 0.19748744668331508,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -2237,7 +2273,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": false,
+        "grid": true,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -2245,11 +2281,29 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.5434551608367515,
+        "snap": true,
+        "zoomFactor": 0.47593921173253334,
         "windowMask": false
       },
-      "objectsGroups": [],
+      "objectsGroups": [
+        {
+          "name": "Blanks",
+          "objects": [
+            {
+              "name": "Blank1"
+            },
+            {
+              "name": "Blank2"
+            },
+            {
+              "name": "Blank3"
+            },
+            {
+              "name": "Blank4"
+            }
+          ]
+        }
+      ],
       "variables": [
         {
           "folded": true,
@@ -2281,74 +2335,19 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
-          "name": "BlankNormal",
-          "persistentUuid": "e8605f34-7acc-400b-b3e8-165df8ef22ae",
-          "width": 0,
-          "x": 729,
-          "y": 666,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "BlankNormal",
-          "persistentUuid": "8a946425-35bb-4869-b972-82cdc91f918b",
-          "width": 0,
-          "x": 832,
-          "y": 665,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "BlankNormal",
-          "persistentUuid": "a52e1bec-761c-4ccd-a2c1-7658d776536c",
-          "width": 0,
-          "x": 937,
-          "y": 664,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "BlankNormal",
-          "persistentUuid": "35a1ef5d-a065-4a42-98ac-06f3cbfa07ab",
-          "width": 0,
-          "x": 1040,
-          "y": 663,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
+          "layer": "Shards",
           "name": "NumberKey",
           "persistentUuid": "2b511d99-7c69-403e-b0cb-62a4f161bb80",
           "width": 0,
           "x": 750,
           "y": 468,
-          "zOrder": 3,
-          "numberProperties": [],
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 4
+            }
+          ],
           "stringProperties": [],
           "initialVariables": []
         },
@@ -2356,46 +2355,82 @@
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shards",
           "name": "NumberKey",
           "persistentUuid": "19eb71f0-82ea-4eb8-b4e2-f107d1b1d3b9",
           "width": 0,
           "x": 840,
           "y": 467,
-          "zOrder": 3,
-          "numberProperties": [],
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 8
+            }
+          ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 1
+            }
+          ]
         },
         {
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shards",
           "name": "NumberKey",
           "persistentUuid": "0de92b01-75bd-4b94-9fb6-00988ba31f33",
           "width": 0,
           "x": 1021,
           "y": 465,
-          "zOrder": 3,
-          "numberProperties": [],
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 2
+            }
+          ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 3
+            }
+          ]
         },
         {
           "angle": 0,
           "customSize": false,
           "height": 0,
-          "layer": "",
+          "layer": "Shards",
           "name": "NumberKey",
           "persistentUuid": "3f11ac7f-de33-45fb-85e8-bc9dc8e7572c",
           "width": 0,
           "x": 931,
           "y": 466,
-          "zOrder": 3,
-          "numberProperties": [],
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 7
+            }
+          ],
           "stringProperties": [],
-          "initialVariables": []
+          "initialVariables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 2
+            }
+          ]
         },
         {
           "angle": 0,
@@ -2405,8 +2440,8 @@
           "name": "Circle",
           "persistentUuid": "2c98a64e-d44d-4c90-8f2a-279ff450ad7e",
           "width": 0,
-          "x": 1211,
-          "y": 661,
+          "x": 1306,
+          "y": 674,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2420,9 +2455,69 @@
           "name": "Triangle",
           "persistentUuid": "370f7578-be2e-487e-a3b9-19133cc73c36",
           "width": 0,
-          "x": 1213,
-          "y": 659,
+          "x": 1308,
+          "y": 672,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Blanks",
+          "name": "Blank1",
+          "persistentUuid": "b991e7e9-b957-4f99-885e-fee17f211cc6",
+          "width": 0,
+          "x": 640,
+          "y": 672,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Blanks",
+          "name": "Blank2",
+          "persistentUuid": "8454577d-b7b2-45ff-9a58-0d2068e17eaa",
+          "width": 0,
+          "x": 800,
+          "y": 672,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Blanks",
+          "name": "Blank3",
+          "persistentUuid": "07f9f9d6-10fe-45fc-bc07-833964e372c1",
+          "width": 0,
+          "x": 960,
+          "y": 672,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "Blanks",
+          "name": "Blank4",
+          "persistentUuid": "01fffd60-5301-4d1a-9d55-f6efbabfd7ac",
+          "width": 0,
+          "x": 1120,
+          "y": 672,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2453,7 +2548,20 @@
           "name": "BlankNormal",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "Connected",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "ConnectedID",
+              "type": "number",
+              "value": 0
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -2513,13 +2621,26 @@
           "name": "NumberKey",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "ID",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "folded": true,
+              "name": "Connected",
+              "type": "boolean",
+              "value": false
+            }
+          ],
           "effects": [],
           "behaviors": [
             {
-              "checkCollisionMask": true,
               "name": "Draggable",
-              "type": "DraggableBehavior::Draggable"
+              "type": "DraggableBehavior::Draggable",
+              "checkCollisionMask": true
             }
           ],
           "animations": [
@@ -3124,6 +3245,298 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Connected",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "ConnectedID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/numbers_slot1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Connected",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "ConnectedID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/numbers_slot2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Connected",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "ConnectedID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/numbers_slot3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Blank4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Connected",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "ConnectedID",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type1/numbers_slot4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 0
+                          },
+                          {
+                            "x": 128,
+                            "y": 128
+                          },
+                          {
+                            "x": 0,
+                            "y": 128
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -3143,162 +3556,67 @@
           },
           {
             "objectName": "Triangle"
+          },
+          {
+            "objectName": "Blank1"
+          },
+          {
+            "objectName": "Blank2"
+          },
+          {
+            "objectName": "Blank3"
+          },
+          {
+            "objectName": "Blank4"
           }
         ]
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "NumberKey",
-                "BlankNormal",
-                "",
-                "",
-                ""
-              ]
-            }
+          "type": "BuiltinCommonInstructions::JsCode",
+          "inlineCode": [
+            "var shardInstances = runtimeScene.getObjects(\"NumberKey\");",
+            "var emptyInstances = runtimeScene.getObjects(\"Blank1\").concat(runtimeScene.getObjects(\"Blank2\").concat(runtimeScene.getObjects(\"Blank3\").concat(runtimeScene.getObjects(\"Blank4\"))));",
+            "",
+            "for (let i = 0; i < shardInstances.length; i++) {",
+            "    for (let j = 0; j < emptyInstances.length; j++) {",
+            "        if (gdjs.RuntimeObject.collisionTest(emptyInstances[j], shardInstances[i]) && emptyInstances[j].getVariables().get(\"Connected\").getAsBoolean() == false) {",
+            "            emptyInstances[j].getVariables().get(\"Connected\").setBoolean(true);",
+            "            emptyInstances[j].getVariables().get(\"ConnectedID\").setNumber(shardInstances[i].getVariables().get(\"ID\").getAsNumber());",
+            "            shardInstances[i].setPosition(emptyInstances[j].x, emptyInstances[j].y);",
+            "            shardInstances[i].getVariables().get(\"Connected\").setBoolean(true);",
+            "        }",
+            "    }",
+            "}",
+            "",
+            "for (let i = 0; i < emptyInstances.length; i++) {",
+            "    let connected = false;",
+            "    for (let j = 0; j < shardInstances.length; j++) {",
+            "        if (connected == false) {",
+            "            if (gdjs.RuntimeObject.collisionTest(emptyInstances[i], shardInstances[j])) {",
+            "                connected = true;",
+            "            }",
+            "        }",
+            "    }",
+            "    emptyInstances[i].getVariables().get(\"Connected\").setBoolean(connected);",
+            "}",
+            "",
+            "for (let j = 0; j < shardInstances.length; j++) {",
+            "    let connected = false;",
+            "    for (let i = 0; i < emptyInstances.length; i++) {",
+            "        if (connected = false) {",
+            "            if (gdjs.RuntimeObject.collisionTest(emptyInstances[i], shardInstances[j])) {",
+            "                connected = true;",
+            "            }",
+            "        }",
+            "    }",
+            "    shardInstances[j].getVariables().get(\"Connected\").setBoolean(connected);",
+            "}",
+            ""
           ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "NumberKey",
-                "=",
-                "BlankNormal.X()",
-                "=",
-                "BlankNormal.Y()"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Triangle"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "SceneInstancesCount(BlankNormal)",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Triangle",
-                ""
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": true,
-                    "value": "CollisionNP"
-                  },
-                  "parameters": [
-                    "BlankNormal",
-                    "NumberKey",
-                    "",
-                    "",
-                    ""
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Triangle"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "MouseButtonPressed"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::ForEach",
-              "object": "NumberKey",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "CursorY"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "NumberKey.Y()",
-                    "",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CursorX"
-                  },
-                  "parameters": [
-                    "",
-                    "=",
-                    "NumberKey.X()",
-                    "",
-                    "0"
-                  ]
-                }
-              ],
-              "actions": []
-            }
-          ]
+          "parameterObjects": "",
+          "useStrict": true,
+          "eventsSheetExpanded": true
         }
       ],
       "layers": [
@@ -3327,6 +3645,70 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Blanks",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Shards",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
