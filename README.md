@@ -1,3 +1,3 @@
-# Game
+# Mender
 
-80K Game
+An abstract thought-provoking puzzle game developed for my game design class
