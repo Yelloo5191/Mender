@@ -779,13 +779,278 @@
         "name": "assets/disruptions/type1/numbers_slot4.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/canvas.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type1\\canvas.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/empty_slot.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type1\\empty_slot.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/pendant.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type1\\pendant.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/family.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type1\\family.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/journal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type1\\journal.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type1/sunflower.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type1\\sunflower.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
   },
-  "objects": [],
+  "objects": [
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Mender",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Effect",
+          "doubleParameters": {
+            "distance": 20,
+            "innerStrength": 1,
+            "outerStrength": 1
+          },
+          "stringParameters": {
+            "color": "173;228;178"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown",
+          "Up": "w",
+          "Left": "a",
+          "Right": "d",
+          "Down": "s",
+          "Topdown": "TopDownMovement"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior",
+          "acceleration": 12000,
+          "deceleration": 12000,
+          "maxSpeed": 600,
+          "rotateObject": false,
+          "allowDiagonals": true,
+          "angleOffset": 0,
+          "angularMaxSpeed": 180,
+          "customIsometryAngle": 30,
+          "ignoreDefaultControls": false,
+          "movementAngleOffset": 0,
+          "viewpoint": "TopDown"
+        }
+      ],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/player.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 4,
+                        "y": 1
+                      },
+                      {
+                        "x": 29,
+                        "y": 1
+                      },
+                      {
+                        "x": 29,
+                        "y": 46
+                      },
+                      {
+                        "x": 4,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "dropshadow",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets/drop-shadow.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 83,
+                        "y": 88
+                      },
+                      {
+                        "x": 422,
+                        "y": 88
+                      },
+                      {
+                        "x": 422,
+                        "y": 275
+                      },
+                      {
+                        "x": 83,
+                        "y": 275
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "Alerts",
+      "smoothed": true,
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [
+        {
+          "effectType": "DropShadow",
+          "name": "Effect",
+          "doubleParameters": {
+            "alpha": 1,
+            "blur": 2,
+            "distance": 1,
+            "padding": 0,
+            "quality": 3,
+            "rotation": 0
+          },
+          "stringParameters": {
+            "color": "0;0;0"
+          },
+          "booleanParameters": {
+            "shadowOnly": false
+          }
+        }
+      ],
+      "behaviors": [],
+      "string": "This disruption has already been resolved.",
+      "font": "assets/fonts/rainyhearts.ttf",
+      "textAlignment": "center",
+      "characterSize": 40,
+      "color": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      }
+    }
+  ],
   "objectsFolderStructure": {
-    "folderName": "__ROOT"
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Mender"
+      },
+      {
+        "objectName": "dropshadow"
+      },
+      {
+        "objectName": "Alerts"
+      }
+    ]
   },
   "objectsGroups": [],
   "variables": [],
@@ -810,7 +1075,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.19748744668331508,
+        "zoomFactor": 0.38335457149393104,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -872,7 +1137,7 @@
           "name": "dropshadow",
           "persistentUuid": "435f40d8-e64d-4fca-ab89-f18666ebe634",
           "width": 145,
-          "x": 753,
+          "x": 1024,
           "y": 536,
           "zOrder": 1,
           "numberProperties": [],
@@ -903,8 +1168,8 @@
           "layer": "Text",
           "name": "Alerts",
           "persistentUuid": "fa6a7e8d-855c-4ae3-8096-2fad90bd3ecb",
-          "width": 982,
-          "x": 453,
+          "width": 1914,
+          "x": 4,
           "y": 1011,
           "zOrder": 4,
           "numberProperties": [],
@@ -930,105 +1195,6 @@
       ],
       "objects": [
         {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "Mender",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [
-            {
-              "effectType": "Glow",
-              "name": "Effect",
-              "doubleParameters": {
-                "distance": 20,
-                "innerStrength": 1,
-                "outerStrength": 1
-              },
-              "stringParameters": {
-                "color": "173;228;178"
-              },
-              "booleanParameters": {}
-            }
-          ],
-          "behaviors": [
-            {
-              "name": "RemapForTopdown",
-              "type": "BehaviorRemapper::RemapForTopdown",
-              "Up": "w",
-              "Left": "a",
-              "Right": "d",
-              "Down": "s",
-              "Topdown": "TopDownMovement"
-            },
-            {
-              "name": "TopDownMovement",
-              "type": "TopDownMovementBehavior::TopDownMovementBehavior",
-              "acceleration": 12000,
-              "deceleration": 12000,
-              "maxSpeed": 600,
-              "rotateObject": false,
-              "allowDiagonals": true,
-              "angleOffset": 0,
-              "angularMaxSpeed": 180,
-              "customIsometryAngle": 30,
-              "ignoreDefaultControls": false,
-              "movementAngleOffset": 0,
-              "viewpoint": "TopDown"
-            }
-          ],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/player.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 4,
-                            "y": 1
-                          },
-                          {
-                            "x": 29,
-                            "y": 1
-                          },
-                          {
-                            "x": 29,
-                            "y": 46
-                          },
-                          {
-                            "x": 4,
-                            "y": 46
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "assetStoreId": "",
           "name": "World",
           "type": "TileMap::TileMap",
@@ -1045,66 +1211,6 @@
             "animationSpeedScale": 1,
             "animationFps": 4
           }
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "dropshadow",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/drop-shadow.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 83,
-                            "y": 88
-                          },
-                          {
-                            "x": 422,
-                            "y": 88
-                          },
-                          {
-                            "x": 422,
-                            "y": 275
-                          },
-                          {
-                            "x": 83,
-                            "y": 275
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "adaptCollisionMaskAutomatically": false,
@@ -1205,27 +1311,6 @@
               ]
             }
           ]
-        },
-        {
-          "assetStoreId": "",
-          "bold": false,
-          "italic": false,
-          "name": "Alerts",
-          "smoothed": true,
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "string": "This disruption has already been resolved.",
-          "font": "assets/fonts/rainyhearts.ttf",
-          "textAlignment": "center",
-          "characterSize": 40,
-          "color": {
-            "b": 255,
-            "g": 255,
-            "r": 255
-          }
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -1632,21 +1717,7 @@
             ]
           },
           {
-            "folderName": "Player",
-            "children": [
-              {
-                "objectName": "dropshadow"
-              },
-              {
-                "objectName": "Mender"
-              }
-            ]
-          },
-          {
             "objectName": "World"
-          },
-          {
-            "objectName": "Alerts"
           }
         ]
       },
@@ -2282,24 +2353,40 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.47593921173253334,
+        "zoomFactor": 0.3531213439423557,
         "windowMask": false
       },
       "objectsGroups": [
         {
           "name": "Blanks",
+          "objects": []
+        },
+        {
+          "name": "Shards",
           "objects": [
             {
-              "name": "Blank1"
+              "name": "Sunflower"
             },
             {
-              "name": "Blank2"
+              "name": "Pendant"
             },
             {
-              "name": "Blank3"
+              "name": "Family"
             },
             {
-              "name": "Blank4"
+              "name": "Journal"
+            },
+            {
+              "name": "TriggerPendant"
+            },
+            {
+              "name": "TriggerSunflower"
+            },
+            {
+              "name": "TriggerFamily"
+            },
+            {
+              "name": "TriggerJournal"
             }
           ]
         }
@@ -2307,9 +2394,71 @@
       "variables": [
         {
           "folded": true,
-          "name": "SelectedNumber",
-          "type": "number",
-          "value": 0
+          "name": "PuzzleState",
+          "type": "structure",
+          "children": [
+            {
+              "folded": true,
+              "name": "SeenF",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "SeenJ",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "SeenP",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "SeenPuzzle",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "SeenS",
+              "type": "boolean",
+              "value": false
+            }
+          ]
+        },
+        {
+          "name": "CanvasState",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "type": "string",
+              "value": "empty"
+            },
+            {
+              "folded": true,
+              "type": "string",
+              "value": "empty"
+            }
+          ]
+        },
+        {
+          "folded": true,
+          "name": "Carrying",
+          "type": "string",
+          "value": "empty"
         }
       ],
       "instances": [
@@ -2318,14 +2467,14 @@
           "customSize": true,
           "depth": 1,
           "height": 2689,
-          "layer": "",
+          "layer": "Ground Tiles",
           "locked": true,
           "name": "World",
           "persistentUuid": "a0969e6b-24e9-4b4a-8caa-09b68cd25b24",
           "sealed": true,
           "width": 2689,
-          "x": -670,
-          "y": -794,
+          "x": -385,
+          "y": -801,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -2333,115 +2482,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Shards",
-          "name": "NumberKey",
-          "persistentUuid": "2b511d99-7c69-403e-b0cb-62a4f161bb80",
-          "width": 0,
-          "x": 750,
-          "y": 468,
-          "zOrder": 2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 4
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Shards",
-          "name": "NumberKey",
-          "persistentUuid": "19eb71f0-82ea-4eb8-b4e2-f107d1b1d3b9",
-          "width": 0,
-          "x": 840,
-          "y": 467,
-          "zOrder": 2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 8
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 1
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Shards",
-          "name": "NumberKey",
-          "persistentUuid": "0de92b01-75bd-4b94-9fb6-00988ba31f33",
-          "width": 0,
-          "x": 1021,
-          "y": 465,
-          "zOrder": 2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 2
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 3
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Shards",
-          "name": "NumberKey",
-          "persistentUuid": "3f11ac7f-de33-45fb-85e8-bc9dc8e7572c",
-          "width": 0,
-          "x": 931,
-          "y": 466,
-          "zOrder": 2,
-          "numberProperties": [
-            {
-              "name": "animation",
-              "value": 7
-            }
-          ],
-          "stringProperties": [],
-          "initialVariables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 2
-            }
-          ]
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Circle",
-          "persistentUuid": "2c98a64e-d44d-4c90-8f2a-279ff450ad7e",
-          "width": 0,
-          "x": 1306,
-          "y": 674,
+          "customSize": true,
+          "depth": 5,
+          "height": 640,
+          "layer": "Canvas",
+          "name": "Canvas",
+          "persistentUuid": "5ab0d3f9-fb9c-4de5-942c-932134e0acbf",
+          "width": 640,
+          "x": 32,
+          "y": 224,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -2449,14 +2498,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "name": "Triangle",
-          "persistentUuid": "370f7578-be2e-487e-a3b9-19133cc73c36",
-          "width": 0,
-          "x": 1308,
-          "y": 672,
+          "customSize": true,
+          "depth": 3,
+          "height": 96,
+          "layer": "Blanks",
+          "name": "Empty",
+          "persistentUuid": "409857e4-0dce-4724-a42c-8eeebffb836c",
+          "width": 96,
+          "x": 64,
+          "y": 256,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2464,60 +2514,314 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 96,
           "layer": "Blanks",
-          "name": "Blank1",
-          "persistentUuid": "b991e7e9-b957-4f99-885e-fee17f211cc6",
-          "width": 0,
-          "x": 640,
-          "y": 672,
-          "zOrder": 3,
+          "name": "Empty",
+          "persistentUuid": "a35e04f6-ae99-442b-9ff4-499534069b64",
+          "width": 96,
+          "x": 224,
+          "y": 416,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 96,
           "layer": "Blanks",
-          "name": "Blank2",
-          "persistentUuid": "8454577d-b7b2-45ff-9a58-0d2068e17eaa",
-          "width": 0,
-          "x": 800,
-          "y": 672,
-          "zOrder": 3,
+          "name": "Empty",
+          "persistentUuid": "fc7633af-676e-4861-a6a3-298bb3cf5f55",
+          "width": 96,
+          "x": 384,
+          "y": 608,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 3,
+          "height": 96,
           "layer": "Blanks",
-          "name": "Blank3",
-          "persistentUuid": "07f9f9d6-10fe-45fc-bc07-833964e372c1",
-          "width": 0,
-          "x": 960,
-          "y": 672,
-          "zOrder": 3,
+          "name": "Empty",
+          "persistentUuid": "6dd60c12-337d-45b7-997f-a5412db0a6b1",
+          "width": 96,
+          "x": 544,
+          "y": 736,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "Blanks",
-          "name": "Blank4",
-          "persistentUuid": "01fffd60-5301-4d1a-9d55-f6efbabfd7ac",
-          "width": 0,
-          "x": 1120,
-          "y": 672,
-          "zOrder": 3,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "Shards",
+          "name": "Sunflower",
+          "persistentUuid": "870fca4b-397d-44df-9cd4-00142c4b172d",
+          "width": 96,
+          "x": 1760,
+          "y": -352,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "Shards",
+          "name": "Family",
+          "persistentUuid": "45e99704-3439-4561-8af3-ccf5bf6483af",
+          "width": 96,
+          "x": 96,
+          "y": 1696,
+          "zOrder": 7,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "Shards",
+          "name": "Journal",
+          "persistentUuid": "f56e2f00-83f0-4142-b582-0f60e186d4c7",
+          "width": 96,
+          "x": 1984,
+          "y": 1472,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 96,
+          "layer": "Shards",
+          "name": "Pendant",
+          "persistentUuid": "126b6704-4597-458f-bc57-2eef4ed2907e",
+          "width": 96,
+          "x": -128,
+          "y": -352,
+          "zOrder": 9,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1088,
+          "layer": "",
+          "name": "PuzzleTrigger",
+          "persistentUuid": "04039736-8b4c-4bb1-af37-cbac558ebcc5",
+          "width": 1024,
+          "x": -160,
+          "y": 0,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 160,
+          "layer": "Player",
+          "name": "Mender",
+          "persistentUuid": "9d6282de-e6ad-4906-b637-e4c78aa56163",
+          "width": 107,
+          "x": 1088,
+          "y": 512,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 104,
+          "layer": "Shadow",
+          "name": "dropshadow",
+          "persistentUuid": "028445a7-239b-4a7d-a84b-2102d129c089",
+          "width": 145,
+          "x": 1024,
+          "y": 608,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
+          "layer": "Text",
+          "name": "Alerts",
+          "persistentUuid": "5c4b2263-9d0b-4974-94dd-02512c4675f4",
+          "width": 1920,
+          "x": 0,
+          "y": 1024,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "layer": "",
+          "name": "TriggerPendant",
+          "persistentUuid": "63599f75-9f20-4304-9ac8-5e95522d5e50",
+          "width": 224,
+          "x": -192,
+          "y": -416,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "layer": "",
+          "name": "TriggerSunflower",
+          "persistentUuid": "a8557a17-64c1-4219-98d1-c2e9d3e273fb",
+          "width": 224,
+          "x": 1696,
+          "y": -416,
+          "zOrder": 15,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "layer": "",
+          "name": "TriggerJournal",
+          "persistentUuid": "a80d5818-89a7-45c0-8611-a8977e0de999",
+          "width": 224,
+          "x": 1920,
+          "y": 1408,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 224,
+          "layer": "",
+          "name": "TriggerFamily",
+          "persistentUuid": "80380447-6b86-42b9-af2a-41686f427606",
+          "width": 224,
+          "x": 32,
+          "y": 1632,
+          "zOrder": 17,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Slot1",
+          "persistentUuid": "457de94f-eec9-4175-99e1-56b9b177c2e8",
+          "width": 96,
+          "x": 64,
+          "y": 256,
+          "zOrder": 18,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Slot2",
+          "persistentUuid": "9163dd63-4c9e-4b07-a6fb-4be2fd9837a8",
+          "width": 96,
+          "x": 224,
+          "y": 416,
+          "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Slot3",
+          "persistentUuid": "2bd54568-2157-4fec-9f14-e7aab782298d",
+          "width": 96,
+          "x": 384,
+          "y": 608,
+          "zOrder": 20,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 96,
+          "layer": "",
+          "name": "Slot4",
+          "persistentUuid": "d104b7c5-3926-4a47-9618-57cffcb378c2",
+          "width": 96,
+          "x": 544,
+          "y": 736,
+          "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2544,592 +2848,8 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "9a599ebf7d87bb6d467ee385c6503b7190083b5ca39cff23515fa9cd1db3aee7",
-          "name": "BlankNormal",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "Connected",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "ConnectedID",
-              "type": "number",
-              "value": 0
-            }
-          ],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Blank Normal.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "2fb37ff344758836480e98dfb2fca27dfba3150d83fec5dc5a226b5189c822b5",
-          "name": "NumberKey",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [
-            {
-              "folded": true,
-              "name": "ID",
-              "type": "number",
-              "value": 0
-            },
-            {
-              "folded": true,
-              "name": "Connected",
-              "type": "boolean",
-              "value": false
-            }
-          ],
-          "effects": [],
-          "behaviors": [
-            {
-              "name": "Draggable",
-              "type": "DraggableBehavior::Draggable",
-              "checkCollisionMask": true
-            }
-          ],
-          "animations": [
-            {
-              "name": "Eight",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Eight.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Five",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Five.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Four",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Four.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Nine",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Nine.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "One",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_One.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Seven",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Seven.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Six",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Six.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Three",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Three.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Two",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Two.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "name": "Zero",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "Number Key_Zero.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 12,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 14
-                          },
-                          {
-                            "x": 88,
-                            "y": 86
-                          },
-                          {
-                            "x": 12,
-                            "y": 86
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "420f37c262ed43753b45191f0bd38de5ea88a716e4cf183da93929c9b3b401c8",
-          "name": "Circle",
+          "assetStoreId": "",
+          "name": "Canvas",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3141,12 +2861,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Circle.png",
+                      "image": "assets\\disruptions\\type1\\canvas.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3162,20 +2882,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 9
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 91,
-                            "y": 9
+                            "x": 128,
+                            "y": 0
                           },
                           {
-                            "x": 91,
-                            "y": 91
+                            "x": 128,
+                            "y": 128
                           },
                           {
-                            "x": 9,
-                            "y": 91
+                            "x": 0,
+                            "y": 128
                           }
                         ]
                       ]
@@ -3188,8 +2908,8 @@
         },
         {
           "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "70f89c2d1ec9357bfc392c98e178ff3e07ee558a7f68535015037121c2f5bbea",
-          "name": "Triangle",
+          "assetStoreId": "",
+          "name": "Empty",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -3201,12 +2921,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": true,
-                  "timeBetweenFrames": 0.025,
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "Triangle.png",
+                      "image": "assets\\disruptions\\type1\\empty_slot.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3222,20 +2942,20 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 9,
-                            "y": 9
+                            "x": 0,
+                            "y": 0
                           },
                           {
-                            "x": 91,
-                            "y": 9
+                            "x": 32,
+                            "y": 0
                           },
                           {
-                            "x": 91,
-                            "y": 91
+                            "x": 32,
+                            "y": 32
                           },
                           {
-                            "x": 9,
-                            "y": 91
+                            "x": 0,
+                            "y": 32
                           }
                         ]
                       ]
@@ -3249,21 +2969,465 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "Blank1",
+          "name": "Pendant",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "folded": true,
-              "name": "Connected",
-              "type": "boolean",
-              "value": false
+              "name": "name",
+              "type": "string",
+              "value": "pendant"
             },
             {
               "folded": true,
-              "name": "ConnectedID",
-              "type": "number",
-              "value": 0
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Godray",
+              "name": "Effect",
+              "doubleParameters": {
+                "angle": 30,
+                "animationSpeed": 1,
+                "gain": 0.6,
+                "lacunarity": 2.75,
+                "light": 30,
+                "padding": 0,
+                "x": 100,
+                "y": 100
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "parallel": true
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type1\\pendant.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Family",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "name",
+              "type": "string",
+              "value": "family"
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Godray",
+              "name": "Effect",
+              "doubleParameters": {
+                "angle": 30,
+                "animationSpeed": 1,
+                "gain": 0.6,
+                "lacunarity": 2.75,
+                "light": 30,
+                "padding": 0,
+                "x": 100,
+                "y": 100
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "parallel": true
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type1\\family.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Journal",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "name",
+              "type": "string",
+              "value": "journal"
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Godray",
+              "name": "Effect",
+              "doubleParameters": {
+                "angle": 30,
+                "animationSpeed": 1,
+                "gain": 0.6,
+                "lacunarity": 2.75,
+                "light": 30,
+                "padding": 0,
+                "x": 100,
+                "y": 100
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "parallel": true
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type1\\journal.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sunflower",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "name",
+              "type": "string",
+              "value": "sunflower"
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Godray",
+              "name": "Effect",
+              "doubleParameters": {
+                "angle": 30,
+                "animationSpeed": 1,
+                "gain": 0.6,
+                "lacunarity": 2.75,
+                "light": 30,
+                "padding": 0,
+                "x": 100,
+                "y": 100
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "parallel": true
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type1\\sunflower.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 0
+                          },
+                          {
+                            "x": 32,
+                            "y": 32
+                          },
+                          {
+                            "x": 0,
+                            "y": 32
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "PuzzleTrigger",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "TriggerPendant",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "name",
+              "type": "string",
+              "value": "pendant"
             }
           ],
           "effects": [],
@@ -3279,7 +3443,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/numbers_slot1.png",
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3295,20 +3459,60 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
                             "y": 0
                           },
                           {
-                            "x": 128,
-                            "y": 0
+                            "x": 10.75,
+                            "y": 0.75
                           },
                           {
-                            "x": 128,
-                            "y": 128
+                            "x": 13,
+                            "y": 2
                           },
                           {
-                            "x": 0,
-                            "y": 128
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
                           }
                         ]
                       ]
@@ -3320,23 +3524,17 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Blank2",
+          "name": "TriggerSunflower",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "folded": true,
-              "name": "Connected",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "ConnectedID",
-              "type": "number",
-              "value": 0
+              "name": "name",
+              "type": "string",
+              "value": "sunflower"
             }
           ],
           "effects": [],
@@ -3352,7 +3550,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/numbers_slot2.png",
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3368,20 +3566,60 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
                             "y": 0
                           },
                           {
-                            "x": 128,
-                            "y": 0
+                            "x": 10.75,
+                            "y": 0.75
                           },
                           {
-                            "x": 128,
-                            "y": 128
+                            "x": 13,
+                            "y": 2
                           },
                           {
-                            "x": 0,
-                            "y": 128
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
                           }
                         ]
                       ]
@@ -3393,23 +3631,17 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Blank3",
+          "name": "TriggerFamily",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "folded": true,
-              "name": "Connected",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "ConnectedID",
-              "type": "number",
-              "value": 0
+              "name": "name",
+              "type": "string",
+              "value": "family"
             }
           ],
           "effects": [],
@@ -3425,7 +3657,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/numbers_slot3.png",
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3441,20 +3673,60 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
                             "y": 0
                           },
                           {
-                            "x": 128,
-                            "y": 0
+                            "x": 10.75,
+                            "y": 0.75
                           },
                           {
-                            "x": 128,
-                            "y": 128
+                            "x": 13,
+                            "y": 2
                           },
                           {
-                            "x": 0,
-                            "y": 128
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
                           }
                         ]
                       ]
@@ -3466,23 +3738,17 @@
           ]
         },
         {
-          "adaptCollisionMaskAutomatically": true,
+          "adaptCollisionMaskAutomatically": false,
           "assetStoreId": "",
-          "name": "Blank4",
+          "name": "TriggerJournal",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [
             {
               "folded": true,
-              "name": "Connected",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "ConnectedID",
-              "type": "number",
-              "value": 0
+              "name": "name",
+              "type": "string",
+              "value": "journal"
             }
           ],
           "effects": [],
@@ -3498,7 +3764,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/numbers_slot4.png",
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3514,20 +3780,460 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 0,
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
                             "y": 0
                           },
                           {
-                            "x": 128,
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Slot1",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
                             "y": 0
                           },
                           {
-                            "x": 128,
-                            "y": 128
+                            "x": 10.75,
+                            "y": 0.75
                           },
                           {
-                            "x": 0,
-                            "y": 128
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Slot2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Slot3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Slot4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
                           }
                         ]
                       ]
@@ -3546,77 +4252,945 @@
             "objectName": "World"
           },
           {
-            "objectName": "BlankNormal"
+            "objectName": "Canvas"
           },
           {
-            "objectName": "NumberKey"
+            "objectName": "Pendant"
           },
           {
-            "objectName": "Circle"
+            "objectName": "Family"
           },
           {
-            "objectName": "Triangle"
+            "objectName": "Journal"
           },
           {
-            "objectName": "Blank1"
+            "objectName": "Sunflower"
           },
           {
-            "objectName": "Blank2"
+            "objectName": "PuzzleTrigger"
           },
           {
-            "objectName": "Blank3"
+            "objectName": "TriggerPendant"
           },
           {
-            "objectName": "Blank4"
+            "objectName": "TriggerSunflower"
+          },
+          {
+            "objectName": "TriggerFamily"
+          },
+          {
+            "objectName": "TriggerJournal"
+          },
+          {
+            "folderName": "Slots",
+            "children": [
+              {
+                "objectName": "Empty"
+              },
+              {
+                "objectName": "Slot4"
+              },
+              {
+                "objectName": "Slot3"
+              },
+              {
+                "objectName": "Slot2"
+              },
+              {
+                "objectName": "Slot1"
+              }
+            ]
           }
         ]
       },
       "events": [
         {
-          "type": "BuiltinCommonInstructions::JsCode",
-          "inlineCode": [
-            "var shardInstances = runtimeScene.getObjects(\"NumberKey\");",
-            "var emptyInstances = runtimeScene.getObjects(\"Blank1\").concat(runtimeScene.getObjects(\"Blank2\").concat(runtimeScene.getObjects(\"Blank3\").concat(runtimeScene.getObjects(\"Blank4\"))));",
-            "",
-            "for (let i = 0; i < shardInstances.length; i++) {",
-            "    for (let j = 0; j < emptyInstances.length; j++) {",
-            "        if (gdjs.RuntimeObject.collisionTest(emptyInstances[j], shardInstances[i]) && emptyInstances[j].getVariables().get(\"Connected\").getAsBoolean() == false) {",
-            "            emptyInstances[j].getVariables().get(\"Connected\").setBoolean(true);",
-            "            emptyInstances[j].getVariables().get(\"ConnectedID\").setNumber(shardInstances[i].getVariables().get(\"ID\").getAsNumber());",
-            "            shardInstances[i].setPosition(emptyInstances[j].x, emptyInstances[j].y);",
-            "            shardInstances[i].getVariables().get(\"Connected\").setBoolean(true);",
-            "        }",
-            "    }",
-            "}",
-            "",
-            "for (let i = 0; i < emptyInstances.length; i++) {",
-            "    let connected = false;",
-            "    for (let j = 0; j < shardInstances.length; j++) {",
-            "        if (connected == false) {",
-            "            if (gdjs.RuntimeObject.collisionTest(emptyInstances[i], shardInstances[j])) {",
-            "                connected = true;",
-            "            }",
-            "        }",
-            "    }",
-            "    emptyInstances[i].getVariables().get(\"Connected\").setBoolean(connected);",
-            "}",
-            "",
-            "for (let j = 0; j < shardInstances.length; j++) {",
-            "    let connected = false;",
-            "    for (let i = 0; i < emptyInstances.length; i++) {",
-            "        if (connected = false) {",
-            "            if (gdjs.RuntimeObject.collisionTest(emptyInstances[i], shardInstances[j])) {",
-            "                connected = true;",
-            "            }",
-            "        }",
-            "    }",
-            "    shardInstances[j].getVariables().get(\"Connected\").setBoolean(connected);",
-            "}",
-            ""
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Hide the Alert text"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
           ],
-          "parameterObjects": "",
-          "useStrict": true,
-          "eventsSheetExpanded": true
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Alerts"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "Alerts"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\"",
+                    ">=",
+                    "4"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "Alerts"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Mirror player image depending on direction of movement"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
+              },
+              "parameters": [
+                "Mender",
+                "TopDownMovement",
+                "0",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Mender",
+                "Flippable",
+                "yes"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
+              },
+              "parameters": [
+                "Mender",
+                "TopDownMovement",
+                "180",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "FlippableCapability::FlippableBehavior::FlipX"
+              },
+              "parameters": [
+                "Mender",
+                "Flippable",
+                "no"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Move the camera to center on the mender (you have to do this for every layer that you want to move)"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Player\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Ground Tiles\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Shadow\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Canvas\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Shards\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Blanks\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "dropshadow",
+                "=",
+                "Mender.X() - 16",
+                "=",
+                "Mender.Y() + 90"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "When player enters the region for puzzle 1, if puzzle 1 is not solved already, start puzzle 1"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "PuzzleTrigger",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenPuzzle",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"Looks like a canvas of emotion. You'll need to organize the scattered emotions and states of mind.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenPuzzle",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Player finds shards"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Pendant\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "TriggerPendant",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenP",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"A shard of emotion! This looks like a pendant with a tear. Sadness?\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenP",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"pendant\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Pendant",
+                    "set",
+                    "False"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Family"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "TriggerFamily",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenF",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"A shard of emotion! This looks like a family portrait. Love or Connection?\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenF",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Sunflower"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "TriggerSunflower",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenS",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"A shard of emotion! A sunflower, it could represent a blooming personal growth.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenS",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Journal"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "TriggerJournal",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenJ",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"A shard of emotion! A book? A journal? This could indicate a time of self reflection.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PuzzleState.SeenJ",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Carrying States"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"pendant\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Pendant",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerPendant",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Canvas States"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot1",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "MettreXY"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "=",
+                        "Slot1.X()",
+                        "=",
+                        "Slot1.Y()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -3645,6 +5219,70 @@
               "width": 0
             }
           ],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Ground Tiles",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Canvas",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
@@ -3726,6 +5364,112 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Shadow",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "BlendingMode",
+              "name": "Effect",
+              "doubleParameters": {
+                "blendmode": 2,
+                "opacity": 0.1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Text",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -3746,12 +5490,24 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
           "name": "Resizable",
           "type": "ResizableCapability::ResizableBehavior"
         },
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
         }
       ]
     }
