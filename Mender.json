@@ -1053,7 +1053,20 @@
     ]
   },
   "objectsGroups": [],
-  "variables": [],
+  "variables": [
+    {
+      "name": "Puzzles_State",
+      "type": "structure",
+      "children": [
+        {
+          "folded": true,
+          "name": "1",
+          "type": "boolean",
+          "value": false
+        }
+      ]
+    }
+  ],
   "layouts": [
     {
       "b": 209,
@@ -1075,24 +1088,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.38335457149393104,
+        "zoomFactor": 0.33572865936163554,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [
-        {
-          "name": "Puzzles_State",
-          "type": "structure",
-          "children": [
-            {
-              "folded": true,
-              "name": "1",
-              "type": "boolean",
-              "value": false
-            }
-          ]
-        }
-      ],
+      "variables": [],
       "instances": [
         {
           "angle": 0,
@@ -1929,6 +1929,15 @@
                 "",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Puzzles_State.1",
+                "False"
+              ]
             }
           ],
           "actions": [],
@@ -2090,6 +2099,38 @@
                     "Alerts"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Puzzles_State.1",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "disruption1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Trigger1"
               ]
             }
           ]
@@ -2312,6 +2353,14 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Physics2",
+          "type": "Physics2::Physics2Behavior",
+          "gravityX": 0,
+          "gravityY": 9.8,
+          "scaleX": 100,
+          "scaleY": 100
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -2472,6 +2521,11 @@
           "name": "Carrying",
           "type": "string",
           "value": "empty"
+        },
+        {
+          "name": "EndTimer",
+          "type": "number",
+          "value": 0
         }
       ],
       "instances": [
@@ -3899,6 +3953,12 @@
               "name": "connected_to",
               "type": "string",
               "value": "empty"
+            },
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 0
             }
           ],
           "effects": [],
@@ -4012,6 +4072,12 @@
               "name": "connected_to",
               "type": "string",
               "value": "empty"
+            },
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 1
             }
           ],
           "effects": [],
@@ -4125,6 +4191,12 @@
               "name": "connected_to",
               "type": "string",
               "value": "empty"
+            },
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 3
             }
           ],
           "effects": [],
@@ -4238,6 +4310,12 @@
               "name": "connected_to",
               "type": "string",
               "value": "empty"
+            },
+            {
+              "folded": true,
+              "name": "id",
+              "type": "number",
+              "value": 3
             }
           ],
           "effects": [],
@@ -4424,6 +4502,15 @@
               },
               "parameters": [
                 "Alerts"
+              ]
+            },
+            {
+              "type": {
+                "value": "PauseTimer"
+              },
+              "parameters": [
+                "",
+                "\"End\""
               ]
             }
           ]
@@ -4894,7 +4981,54 @@
                         "=",
                         "\"empty\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "CanvasState[Blanks.id]",
+                        "=",
+                        "\"empty\""
+                      ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
                   ]
                 }
               ]
@@ -5055,6 +5189,16 @@
                       "parameters": [
                         "Blanks",
                         "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "CanvasState[Blanks.id]",
                         "=",
                         "\"empty\""
                       ]
@@ -5222,6 +5366,16 @@
                         "=",
                         "\"empty\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "CanvasState[Blanks.id]",
+                        "=",
+                        "\"empty\""
+                      ]
                     }
                   ]
                 }
@@ -5383,6 +5537,16 @@
                       "parameters": [
                         "Blanks",
                         "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "CanvasState[Blanks.id]",
                         "=",
                         "\"empty\""
                       ]
@@ -5723,6 +5887,16 @@
                             "=",
                             "Shards.name"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "CanvasState[0]",
+                            "=",
+                            "Shards.name"
+                          ]
                         }
                       ]
                     },
@@ -5901,6 +6075,16 @@
                           "parameters": [
                             "Slot2",
                             "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "CanvasState[1]",
                             "=",
                             "Shards.name"
                           ]
@@ -6085,6 +6269,16 @@
                             "=",
                             "Shards.name"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "CanvasState[2]",
+                            "=",
+                            "Shards.name"
+                          ]
                         }
                       ]
                     },
@@ -6266,6 +6460,16 @@
                             "=",
                             "Shards.name"
                           ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarSceneTxt"
+                          },
+                          "parameters": [
+                            "CanvasState[3]",
+                            "=",
+                            "Shards.name"
+                          ]
                         }
                       ]
                     },
@@ -6306,52 +6510,129 @@
           ]
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "CanvasState[0]",
+                "=",
+                "\"pendant\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "CanvasState[1]",
+                "=",
+                "\"family\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "CanvasState[2]",
+                "=",
+                "\"journal\""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "CanvasState[3]",
+                "=",
+                "\"sunflower\""
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "MettreAutour"
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
-                "TriggerPendant",
-                "Pendant",
-                "0",
-                "0"
+                "Alerts",
+                "Text",
+                "=",
+                "\"It's done! The scattered emotions have been organized correctly and the disruption has been resolved.\""
               ]
             },
             {
               "type": {
-                "value": "MettreAutour"
+                "value": "Montre"
               },
               "parameters": [
-                "TriggerFamily",
-                "Family",
-                "0",
-                "0"
+                "Alerts",
+                ""
               ]
             },
             {
               "type": {
-                "value": "MettreAutour"
+                "value": "ResetObjectTimer"
               },
               "parameters": [
-                "TriggerJournal",
-                "Journal",
-                "0",
-                "0"
+                "Alerts",
+                "\"Time Visible\""
               ]
             },
             {
               "type": {
-                "value": "MettreAutour"
+                "value": "ResetTimer"
               },
               "parameters": [
-                "TriggerSunflower",
-                "Sunflower",
-                "0",
-                "0"
+                "",
+                "\"End\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"End\"",
+                ">=",
+                "4"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Puzzles_State.1",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Main\"",
+                ""
               ]
             }
           ]
@@ -6637,10 +6918,6 @@
         }
       ],
       "behaviorsSharedData": [
-        {
-          "name": "Anchor",
-          "type": "AnchorBehavior::AnchorBehavior"
-        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
