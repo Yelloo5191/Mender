@@ -2353,13 +2353,26 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.3531213439423557,
+        "zoomFactor": 0.6205488107713978,
         "windowMask": false
       },
       "objectsGroups": [
         {
           "name": "Blanks",
-          "objects": []
+          "objects": [
+            {
+              "name": "Slot1"
+            },
+            {
+              "name": "Slot2"
+            },
+            {
+              "name": "Slot3"
+            },
+            {
+              "name": "Slot4"
+            }
+          ]
         },
         {
           "name": "Shards",
@@ -2484,11 +2497,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 5,
-          "height": 640,
+          "height": 288,
           "layer": "Canvas",
           "name": "Canvas",
           "persistentUuid": "5ab0d3f9-fb9c-4de5-942c-932134e0acbf",
-          "width": 640,
+          "width": 832,
           "x": 32,
           "y": 224,
           "zOrder": 4,
@@ -2506,7 +2519,7 @@
           "persistentUuid": "409857e4-0dce-4724-a42c-8eeebffb836c",
           "width": 96,
           "x": 64,
-          "y": 256,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2521,8 +2534,8 @@
           "name": "Empty",
           "persistentUuid": "a35e04f6-ae99-442b-9ff4-499534069b64",
           "width": 96,
-          "x": 224,
-          "y": 416,
+          "x": 288,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2537,8 +2550,8 @@
           "name": "Empty",
           "persistentUuid": "fc7633af-676e-4861-a6a3-298bb3cf5f55",
           "width": 96,
-          "x": 384,
-          "y": 608,
+          "x": 512,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2553,8 +2566,8 @@
           "name": "Empty",
           "persistentUuid": "6dd60c12-337d-45b7-997f-a5412db0a6b1",
           "width": 96,
-          "x": 544,
-          "y": 736,
+          "x": 736,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -2772,7 +2785,7 @@
           "persistentUuid": "457de94f-eec9-4175-99e1-56b9b177c2e8",
           "width": 96,
           "x": 64,
-          "y": 256,
+          "y": 320,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -2787,8 +2800,8 @@
           "name": "Slot2",
           "persistentUuid": "9163dd63-4c9e-4b07-a6fb-4be2fd9837a8",
           "width": 96,
-          "x": 224,
-          "y": 416,
+          "x": 288,
+          "y": 320,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -2803,8 +2816,8 @@
           "name": "Slot3",
           "persistentUuid": "2bd54568-2157-4fec-9f14-e7aab782298d",
           "width": 96,
-          "x": 384,
-          "y": 608,
+          "x": 512,
+          "y": 320,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -2819,8 +2832,8 @@
           "name": "Slot4",
           "persistentUuid": "d104b7c5-3926-4a47-9618-57cffcb378c2",
           "width": 96,
-          "x": 544,
-          "y": 736,
+          "x": 736,
+          "y": 320,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -3428,6 +3441,12 @@
               "name": "name",
               "type": "string",
               "value": "pendant"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -3535,6 +3554,12 @@
               "name": "name",
               "type": "string",
               "value": "sunflower"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -3642,6 +3667,12 @@
               "name": "name",
               "type": "string",
               "value": "family"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -3749,6 +3780,12 @@
               "name": "name",
               "type": "string",
               "value": "journal"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -3850,7 +3887,20 @@
           "name": "Slot1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -3950,7 +4000,20 @@
           "name": "Slot2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4050,7 +4113,20 @@
           "name": "Slot3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4150,7 +4226,20 @@
           "name": "Slot4",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4560,7 +4649,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "When player enters the region for puzzle 1, if puzzle 1 is not solved already, start puzzle 1"
+          "comment": "When player enters trigger for canvas, play help text"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -4765,15 +4854,47 @@
                     "=",
                     "\"pendant\""
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Pendant",
-                    "set",
-                    "False"
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"pendant\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -4863,6 +4984,84 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"family\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"family\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -4946,6 +5145,84 @@
                   "parameters": [
                     "PuzzleState.SeenS",
                     "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"sunflower\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"sunflower\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -5035,6 +5312,84 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"journal\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"journal\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5083,6 +5438,129 @@
               },
               "parameters": [
                 "TriggerPendant",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"family\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Family",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerFamily",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"journal\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Journal",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerJournal",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"sunflower\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Sunflower",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerSunflower",
                 "=",
                 "Mender.X()",
                 "=",
@@ -5143,6 +5621,16 @@
                     "=",
                     "\"empty\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot1",
+                    "set",
+                    "False"
+                  ]
                 }
               ],
               "actions": [],
@@ -5166,16 +5654,185 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "MettreXY"
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot1",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "Shards",
-                        "=",
-                        "Slot1.X()",
-                        "=",
-                        "Slot1.Y()"
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot1.X()",
+                            "=",
+                            "Slot1.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot1",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
                       ]
                     },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot1.X()",
+                            "=",
+                            "Slot1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot2",
+                    "set",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "ModVarSceneTxt"
@@ -5185,9 +5842,516 @@
                         "=",
                         "\"empty\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot2",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot2.X()",
+                            "=",
+                            "Slot2.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot2",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot2.X() - (Shards.Width() / 2)",
+                            "=",
+                            "Slot2.Y() - (Shards.Height() / 2)"
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot3",
+                    "set",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot3",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot3.X()",
+                            "=",
+                            "Slot3.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot3",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot3.X() - (Shards.Width() / 2)",
+                            "=",
+                            "Slot3.Y() - (Shards.Height() / 2)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot4",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot4",
+                    "set",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot4",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot4.X()",
+                            "=",
+                            "Slot4.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot4",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot4.X() - (Shards.Width() / 2)",
+                            "=",
+                            "Slot4.Y() - (Shards.Height() / 2)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerPendant",
+                "Pendant",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerFamily",
+                "Family",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerJournal",
+                "Journal",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerSunflower",
+                "Sunflower",
+                "0",
+                "0"
               ]
             }
           ]
@@ -5473,6 +6637,10 @@
         }
       ],
       "behaviorsSharedData": [
+        {
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
+        },
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
