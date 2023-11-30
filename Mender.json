@@ -4503,15 +4503,6 @@
               "parameters": [
                 "Alerts"
               ]
-            },
-            {
-              "type": {
-                "value": "PauseTimer"
-              },
-              "parameters": [
-                "",
-                "\"End\""
-              ]
             }
           ]
         },
@@ -5206,6 +5197,43 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5380,6 +5408,43 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5551,6 +5616,43 @@
                         "\"empty\""
                       ]
                     }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "x"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
                   ]
                 }
               ]
@@ -6514,97 +6616,6 @@
           "conditions": [
             {
               "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "CanvasState[0]",
-                "=",
-                "\"pendant\""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "CanvasState[1]",
-                "=",
-                "\"family\""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "CanvasState[2]",
-                "=",
-                "\"journal\""
-              ]
-            },
-            {
-              "type": {
-                "value": "VarSceneTxt"
-              },
-              "parameters": [
-                "CanvasState[3]",
-                "=",
-                "\"sunflower\""
-              ]
-            },
-            {
-              "type": {
-                "value": "BuiltinCommonInstructions::Once"
-              },
-              "parameters": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-              },
-              "parameters": [
-                "Alerts",
-                "Text",
-                "=",
-                "\"It's done! The scattered emotions have been organized correctly and the disruption has been resolved.\""
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Alerts",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetObjectTimer"
-              },
-              "parameters": [
-                "Alerts",
-                "\"Time Visible\""
-              ]
-            },
-            {
-              "type": {
-                "value": "ResetTimer"
-              },
-              "parameters": [
-                "",
-                "\"End\""
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
                 "value": "CompareTimer"
               },
               "parameters": [
@@ -6618,21 +6629,122 @@
           "actions": [
             {
               "type": {
-                "value": "SetGlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "Puzzles_State.1",
-                "True"
-              ]
-            },
-            {
-              "type": {
                 "value": "Scene"
               },
               "parameters": [
                 "",
                 "\"Main\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "CanvasState[0]",
+                    "=",
+                    "\"pendant\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "CanvasState[1]",
+                    "=",
+                    "\"family\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "CanvasState[2]",
+                    "=",
+                    "\"journal\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "CanvasState[3]",
+                    "=",
+                    "\"sunflower\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Puzzles_State.1",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"It's done! The scattered emotions have been organized correctly and the disruption has been resolved.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"End\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetGlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Puzzles_State.1",
+                    "True"
+                  ]
+                }
               ]
             }
           ]
