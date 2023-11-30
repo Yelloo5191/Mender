@@ -3054,7 +3054,11 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
+<<<<<<< HEAD
         "zoomFactor": 0.3773376008832419,
+=======
+        "zoomFactor": 0.6205488107713978,
+>>>>>>> parent of e59557a (later)
         "windowMask": false
       },
       "objectsGroups": [
