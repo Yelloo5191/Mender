@@ -833,19 +833,6 @@
         "name": "assets\\disruptions\\type1\\sunflower.png",
         "smoothed": false,
         "userAdded": true
-      },
-      {
-        "alwaysLoaded": false,
-        "file": "assets/tiled_Wall.png",
-        "kind": "image",
-        "metadata": "",
-        "name": "tiled_Wall.png",
-        "smoothed": false,
-        "userAdded": false,
-        "origin": {
-          "identifier": "https://asset-resources.gdevelop.io/public-resources/Pirate Pack (190 assets)/PNG/Retina/Tiles/bae06091eb0b447169407d58904995c648e9edfd20793c42010e122caad77176_tiled_Wall.png",
-          "name": "tiled_Wall.png"
-        }
       }
     ],
     "resourceFolders": []
@@ -1088,7 +1075,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.24096714957257181,
+        "zoomFactor": 0.38335457149393104,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1100,12 +1087,6 @@
             {
               "folded": true,
               "name": "1",
-              "type": "boolean",
-              "value": false
-            },
-            {
-              "folded": true,
-              "name": "2",
               "type": "boolean",
               "value": false
             }
@@ -1204,41 +1185,9 @@
           "name": "disruption1",
           "persistentUuid": "c2a3b5f8-feb1-4aff-97b9-8e96a2eb8ece",
           "width": 611,
-          "x": 2349,
-          "y": 194,
+          "x": 2261,
+          "y": 223,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 177,
-          "customSize": true,
-          "depth": 1,
-          "height": 612,
-          "layer": "Disruption",
-          "name": "disruption2",
-          "persistentUuid": "50cd0d3f-0682-484a-9240-cf7b764c611e",
-          "width": 621,
-          "x": 572,
-          "y": 1828,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 1180,
-          "layer": "",
-          "name": "Trigger2",
-          "persistentUuid": "c9334ac3-60a8-463f-9622-fc28e799086c",
-          "width": 1323,
-          "x": 232,
-          "y": 1542,
-          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1746,490 +1695,6 @@
               ]
             }
           ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": true,
-          "assetStoreId": "",
-          "name": "disruption2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "Disrupted",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": true,
-                  "timeBetweenFrames": 0.12,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption1.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption2.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption3.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption4.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption5.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption6.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption7.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption8.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption9.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    },
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "assets/disruptions/type1/disruption10.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 9,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 10
-                          },
-                          {
-                            "x": 55,
-                            "y": 53
-                          },
-                          {
-                            "x": 9,
-                            "y": 53
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "adaptCollisionMaskAutomatically": false,
-          "assetStoreId": "",
-          "name": "Trigger2",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": true,
-                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": [
-                        [
-                          {
-                            "x": 1.75,
-                            "y": 11.5
-                          },
-                          {
-                            "x": 0.5,
-                            "y": 8
-                          },
-                          {
-                            "x": 1.25,
-                            "y": 4.75
-                          },
-                          {
-                            "x": 2.5,
-                            "y": 2.5
-                          },
-                          {
-                            "x": 5.25,
-                            "y": 0.75
-                          },
-                          {
-                            "x": 8,
-                            "y": 0
-                          },
-                          {
-                            "x": 10.75,
-                            "y": 0.75
-                          },
-                          {
-                            "x": 13,
-                            "y": 2
-                          },
-                          {
-                            "x": 14.75,
-                            "y": 4.75
-                          },
-                          {
-                            "x": 15.5,
-                            "y": 8.5
-                          },
-                          {
-                            "x": 14.5,
-                            "y": 11.5
-                          },
-                          {
-                            "x": 12.5,
-                            "y": 14
-                          },
-                          {
-                            "x": 8.5,
-                            "y": 15
-                          },
-                          {
-                            "x": 3.5,
-                            "y": 14
-                          }
-                        ]
-                      ]
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         }
       ],
       "objectsFolderStructure": {
@@ -2246,17 +1711,6 @@
                   },
                   {
                     "objectName": "Trigger1"
-                  }
-                ]
-              },
-              {
-                "folderName": "2",
-                "children": [
-                  {
-                    "objectName": "disruption2"
-                  },
-                  {
-                    "objectName": "Trigger2"
                   }
                 ]
               }
@@ -2639,161 +2093,6 @@
               ]
             }
           ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "When player enters region for puzzle 2, if puzzle 2 is not solved already, start puzzle 2"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Mender",
-                "Trigger2",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Puzzles_State.2",
-                    "False"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "Text",
-                    "=",
-                    "\"A disruption. Press e to attempt to resolve it.\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "\"Time Visible\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    ""
-                  ]
-                }
-              ],
-              "events": [
-                {
-                  "type": "BuiltinCommonInstructions::Standard",
-                  "conditions": [
-                    {
-                      "type": {
-                        "value": "KeyPressed"
-                      },
-                      "parameters": [
-                        "",
-                        "e"
-                      ]
-                    }
-                  ],
-                  "actions": [
-                    {
-                      "type": {
-                        "value": "Scene"
-                      },
-                      "parameters": [
-                        "",
-                        "\"Puzzle 2\"",
-                        ""
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Puzzles_State.2",
-                    "True"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "Text",
-                    "=",
-                    "\"This disruption has already been resolved.\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "\"Time Visible\""
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
         }
       ],
       "layers": [
@@ -3054,21 +2353,26 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-<<<<<<< HEAD
-<<<<<<< HEAD
-        "zoomFactor": 0.3773376008832419,
-=======
-        "zoomFactor": 0.6205488107713978,
->>>>>>> parent of e59557a (later)
-=======
-        "zoomFactor": 0.6205488107713978,
->>>>>>> parent of e59557a (later)
+        "zoomFactor": 0.43086608861511067,
         "windowMask": false
       },
       "objectsGroups": [
         {
           "name": "Blanks",
-          "objects": []
+          "objects": [
+            {
+              "name": "Slot1"
+            },
+            {
+              "name": "Slot2"
+            },
+            {
+              "name": "Slot3"
+            },
+            {
+              "name": "Slot4"
+            }
+          ]
         },
         {
           "name": "Shards",
@@ -3193,11 +2497,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 5,
-          "height": 640,
+          "height": 288,
           "layer": "Canvas",
           "name": "Canvas",
           "persistentUuid": "5ab0d3f9-fb9c-4de5-942c-932134e0acbf",
-          "width": 640,
+          "width": 832,
           "x": 32,
           "y": 224,
           "zOrder": 4,
@@ -3215,7 +2519,7 @@
           "persistentUuid": "409857e4-0dce-4724-a42c-8eeebffb836c",
           "width": 96,
           "x": 64,
-          "y": 256,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3230,8 +2534,8 @@
           "name": "Empty",
           "persistentUuid": "a35e04f6-ae99-442b-9ff4-499534069b64",
           "width": 96,
-          "x": 224,
-          "y": 416,
+          "x": 288,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3246,8 +2550,8 @@
           "name": "Empty",
           "persistentUuid": "fc7633af-676e-4861-a6a3-298bb3cf5f55",
           "width": 96,
-          "x": 384,
-          "y": 608,
+          "x": 512,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3262,8 +2566,8 @@
           "name": "Empty",
           "persistentUuid": "6dd60c12-337d-45b7-997f-a5412db0a6b1",
           "width": 96,
-          "x": 544,
-          "y": 736,
+          "x": 736,
+          "y": 320,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -3481,7 +2785,7 @@
           "persistentUuid": "457de94f-eec9-4175-99e1-56b9b177c2e8",
           "width": 96,
           "x": 64,
-          "y": 256,
+          "y": 320,
           "zOrder": 18,
           "numberProperties": [],
           "stringProperties": [],
@@ -3496,8 +2800,8 @@
           "name": "Slot2",
           "persistentUuid": "9163dd63-4c9e-4b07-a6fb-4be2fd9837a8",
           "width": 96,
-          "x": 224,
-          "y": 416,
+          "x": 288,
+          "y": 320,
           "zOrder": 19,
           "numberProperties": [],
           "stringProperties": [],
@@ -3512,8 +2816,8 @@
           "name": "Slot3",
           "persistentUuid": "2bd54568-2157-4fec-9f14-e7aab782298d",
           "width": 96,
-          "x": 384,
-          "y": 608,
+          "x": 512,
+          "y": 320,
           "zOrder": 20,
           "numberProperties": [],
           "stringProperties": [],
@@ -3528,8 +2832,8 @@
           "name": "Slot4",
           "persistentUuid": "d104b7c5-3926-4a47-9618-57cffcb378c2",
           "width": 96,
-          "x": 544,
-          "y": 736,
+          "x": 736,
+          "y": 320,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -4137,6 +3441,12 @@
               "name": "name",
               "type": "string",
               "value": "pendant"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -4244,6 +3554,12 @@
               "name": "name",
               "type": "string",
               "value": "sunflower"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -4351,6 +3667,12 @@
               "name": "name",
               "type": "string",
               "value": "family"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -4458,6 +3780,12 @@
               "name": "name",
               "type": "string",
               "value": "journal"
+            },
+            {
+              "folded": true,
+              "name": "type",
+              "type": "string",
+              "value": "trigger"
             }
           ],
           "effects": [],
@@ -4559,7 +3887,20 @@
           "name": "Slot1",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4659,7 +4000,20 @@
           "name": "Slot2",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4759,7 +4113,20 @@
           "name": "Slot3",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -4859,7 +4226,20 @@
           "name": "Slot4",
           "type": "Sprite",
           "updateIfNotVisible": false,
-          "variables": [],
+          "variables": [
+            {
+              "folded": true,
+              "name": "set",
+              "type": "boolean",
+              "value": false
+            },
+            {
+              "folded": true,
+              "name": "connected_to",
+              "type": "string",
+              "value": "empty"
+            }
+          ],
           "effects": [],
           "behaviors": [],
           "animations": [
@@ -5269,7 +4649,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "When player enters the region for puzzle 1, if puzzle 1 is not solved already, start puzzle 1"
+          "comment": "When player enters trigger for canvas, play help text"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -5474,15 +4854,47 @@
                     "=",
                     "\"pendant\""
                   ]
-                },
+                }
+              ],
+              "events": [
                 {
-                  "type": {
-                    "value": "SetObjectVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "Pendant",
-                    "set",
-                    "False"
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"pendant\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -5572,6 +4984,84 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"family\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"family\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5655,6 +5145,84 @@
                   "parameters": [
                     "PuzzleState.SeenS",
                     "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"sunflower\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"sunflower\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
                   ]
                 }
               ]
@@ -5744,6 +5312,84 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"journal\""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Blanks",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"journal\""
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "set",
+                        "False"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjetTxt"
+                      },
+                      "parameters": [
+                        "Blanks",
+                        "connected_to",
+                        "=",
+                        "\"empty\""
+                      ]
+                    }
+                  ]
+                }
+              ]
             }
           ]
         },
@@ -5792,6 +5438,129 @@
               },
               "parameters": [
                 "TriggerPendant",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"family\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Family",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerFamily",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"journal\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Journal",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerJournal",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarSceneTxt"
+              },
+              "parameters": [
+                "Carrying",
+                "=",
+                "\"sunflower\""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Sunflower",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y()"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "TriggerSunflower",
                 "=",
                 "Mender.X()",
                 "=",
@@ -5852,6 +5621,16 @@
                     "=",
                     "\"empty\""
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot1",
+                    "set",
+                    "False"
+                  ]
                 }
               ],
               "actions": [],
@@ -5875,16 +5654,185 @@
                   "actions": [
                     {
                       "type": {
-                        "value": "MettreXY"
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot1",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
                       },
                       "parameters": [
                         "Shards",
-                        "=",
-                        "Slot1.X()",
-                        "=",
-                        "Slot1.Y()"
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot1.X()",
+                            "=",
+                            "Slot1.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot1",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
                       ]
                     },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot1.X()",
+                            "=",
+                            "Slot1.Y()"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot2",
+                    "set",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
                     {
                       "type": {
                         "value": "ModVarSceneTxt"
@@ -5894,9 +5842,516 @@
                         "=",
                         "\"empty\""
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot2",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot2.X()",
+                            "=",
+                            "Slot2.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot2",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot2.X() - (Shards.Width() / 2)",
+                            "=",
+                            "Slot2.Y() - (Shards.Height() / 2)"
+                          ]
+                        }
+                      ]
                     }
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot3",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot3",
+                    "set",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot3",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot3.X()",
+                            "=",
+                            "Slot3.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot3",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot3.X() - (Shards.Width() / 2)",
+                            "=",
+                            "Slot3.Y() - (Shards.Height() / 2)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Slot4",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                },
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "Carrying",
+                    "=",
+                    "\"empty\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Slot4",
+                    "set",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Shards",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarObjetTxt"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "name",
+                        "=",
+                        "Carrying"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarSceneTxt"
+                      },
+                      "parameters": [
+                        "Carrying",
+                        "=",
+                        "\"empty\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Slot4",
+                        "set",
+                        "True"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetObjectVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Shards",
+                        "set",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot4.X()",
+                            "=",
+                            "Slot4.Y() "
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ModVarObjetTxt"
+                          },
+                          "parameters": [
+                            "Slot4",
+                            "connected_to",
+                            "=",
+                            "Shards.name"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjetTxt"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "type",
+                            "=",
+                            "\"trigger\""
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "MettreXY"
+                          },
+                          "parameters": [
+                            "Shards",
+                            "=",
+                            "Slot4.X() - (Shards.Width() / 2)",
+                            "=",
+                            "Slot4.Y() - (Shards.Height() / 2)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "disabled": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerPendant",
+                "Pendant",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerFamily",
+                "Family",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerJournal",
+                "Journal",
+                "0",
+                "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "TriggerSunflower",
+                "Sunflower",
+                "0",
+                "0"
               ]
             }
           ]
@@ -6183,957 +6638,9 @@
       ],
       "behaviorsSharedData": [
         {
-          "name": "Animation",
-          "type": "AnimatableCapability::AnimatableBehavior"
+          "name": "Anchor",
+          "type": "AnchorBehavior::AnchorBehavior"
         },
-        {
-          "name": "Effect",
-          "type": "EffectCapability::EffectBehavior"
-        },
-        {
-          "name": "Flippable",
-          "type": "FlippableCapability::FlippableBehavior"
-        },
-        {
-          "name": "Opacity",
-          "type": "OpacityCapability::OpacityBehavior"
-        },
-        {
-          "name": "RemapForTopdown",
-          "type": "BehaviorRemapper::RemapForTopdown"
-        },
-        {
-          "name": "Resizable",
-          "type": "ResizableCapability::ResizableBehavior"
-        },
-        {
-          "name": "Scale",
-          "type": "ScalableCapability::ScalableBehavior"
-        },
-        {
-          "name": "Text",
-          "type": "TextContainerCapability::TextContainerBehavior"
-        },
-        {
-          "name": "TopDownMovement",
-          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
-        }
-      ]
-    },
-    {
-      "b": 209,
-      "disableInputWhenNotFocused": true,
-      "mangledName": "Puzzle_322",
-      "name": "Puzzle 2",
-      "r": 209,
-      "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
-      "title": "",
-      "v": 209,
-      "uiSettings": {
-        "grid": false,
-        "gridType": "rectangular",
-        "gridWidth": 32,
-        "gridHeight": 32,
-        "gridOffsetX": 0,
-        "gridOffsetY": 0,
-        "gridColor": 10401023,
-        "gridAlpha": 0.8,
-        "snap": false,
-        "zoomFactor": 0.6406912462476518,
-        "windowMask": false
-      },
-      "objectsGroups": [],
-      "variables": [],
-      "instances": [
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 2500,
-          "layer": "Canvas",
-          "name": "World",
-          "persistentUuid": "2a9c19b8-2ab8-41e8-8f0c-f4f802794c50",
-          "width": 1500,
-          "x": 205,
-          "y": -496,
-          "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 160,
-          "layer": "Player",
-          "name": "Mender",
-          "persistentUuid": "8a1efeac-3c34-46b8-9357-5af1029e0e42",
-          "width": 107,
-          "x": 902,
-          "y": 1759,
-          "zOrder": 2,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 0,
-          "height": 104,
-          "layer": "Shadow",
-          "name": "dropshadow",
-          "persistentUuid": "01767d17-9f88-4772-9caa-b6afb1e27cc8",
-          "width": 145,
-          "x": 856,
-          "y": 1867,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 102,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "6b3a2ff9-9785-4c3b-85bd-bc487c779b20",
-          "width": 615,
-          "x": 211,
-          "y": 1646,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 94,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "d40d403b-b063-4b63-8faa-032b2cdf6ebe",
-          "width": 619,
-          "x": 1084,
-          "y": 1646,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "0154d98e-11e0-49cd-934e-e3d5efe6a9d9",
-          "width": 236,
-          "x": 1020,
-          "y": 1490,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "1c9512b0-d104-4c63-9909-3a1f52ac605e",
-          "width": 337,
-          "x": 1084,
-          "y": 1325,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "bd0aa7d6-6c16-40f0-a6db-4e12e7fe7c52",
-          "width": 321,
-          "x": 1218,
-          "y": 1126,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "1c132eeb-851c-4d63-9a55-874d60a6ca7a",
-          "width": 312,
-          "x": 528,
-          "y": 1336,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 122,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "9b629392-9740-4da3-8583-15638d22b26f",
-          "width": 246,
-          "x": 666,
-          "y": 1173,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "cc797b7d-451e-4773-8ae6-7f31a7f175f3",
-          "width": 312,
-          "x": 211,
-          "y": 1012,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "20a4b8d9-5130-457f-9547-7d2b5439f048",
-          "width": 312,
-          "x": 744,
-          "y": 1024,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "bf8b75ca-c155-4892-8180-fb0913f63937",
-          "width": 340,
-          "x": 849,
-          "y": 828,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "f477e114-fb86-49b5-ad0f-a9da4328bd11",
-          "width": 437,
-          "x": 970,
-          "y": 658,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "472810f2-a6b9-4bd5-b75f-e1c47f73d297",
-          "width": 714,
-          "x": 137,
-          "y": 363,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 115,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "d443bc36-9a52-4ba0-8204-3a2fcc334746",
-          "width": 501,
-          "x": 531,
-          "y": 374,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "06b5712b-f8ed-4b45-8bcb-3de1b7de6c2c",
-          "width": 702,
-          "x": 1020,
-          "y": 358,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 124,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "880b9c04-5df2-4496-acb0-9e930c5e041d",
-          "width": 1265,
-          "x": 447,
-          "y": 43,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 121,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "eaac77c2-e85d-4872-89ae-4445266bde80",
-          "width": 1318,
-          "x": 210,
-          "y": -241,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 90,
-          "customSize": true,
-          "depth": 1,
-          "height": 117,
-          "layer": "Maze",
-          "name": "Wall",
-          "persistentUuid": "ba46237a-79df-43ad-a79b-cfb3f921086d",
-          "width": 367,
-          "x": 1313,
-          "y": -373,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 40,
-          "layer": "Lighting",
-          "name": "Spotlight",
-          "persistentUuid": "43d2f559-4ef9-4dc5-896e-23c2c47109cf",
-          "width": 30,
-          "x": 1006,
-          "y": 548,
-          "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        }
-      ],
-      "objects": [
-        {
-          "assetStoreId": "",
-          "name": "World",
-          "type": "TileMap::TileMap",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "tilemapJsonFile": "assets/world/puzzle_map1.json",
-            "tilesetJsonFile": "",
-            "tilemapAtlasImage": "assets/tiles/tilemap.png",
-            "displayMode": "visible",
-            "layerIndex": 0,
-            "levelIndex": 0,
-            "animationSpeedScale": 1,
-            "animationFps": 4
-          }
-        },
-        {
-          "assetStoreId": "f9417b03de9e8166330bb54bf8b74fa6a649212dc6d0e3c1f3ce0dff15e432c4",
-          "height": 128,
-          "name": "Wall",
-          "texture": "tiled_Wall.png",
-          "type": "TiledSpriteObject::TiledSprite",
-          "width": 128,
-          "variables": [],
-          "effects": [],
-          "behaviors": []
-        },
-        {
-          "assetStoreId": "",
-          "name": "Spotlight",
-          "type": "Lighting::LightObject",
-          "variables": [],
-          "effects": [],
-          "behaviors": [],
-          "content": {
-            "radius": 300,
-            "color": "151;47;42",
-            "debugMode": false,
-            "texture": ""
-          }
-        }
-      ],
-      "objectsFolderStructure": {
-        "folderName": "__ROOT",
-        "children": [
-          {
-            "objectName": "World"
-          },
-          {
-            "objectName": "Wall"
-          },
-          {
-            "objectName": "Spotlight"
-          }
-        ]
-      },
-      "events": [
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "DepartScene"
-              },
-              "parameters": [
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Alerts"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "Visible"
-                  },
-                  "parameters": [
-                    "Alerts"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "CompareObjectTimer"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "\"Time Visible\"",
-                    ">=",
-                    "4"
-                  ]
-                }
-              ],
-              "actions": [
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Alerts"
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "Visible"
-              },
-              "parameters": [
-                "Alerts"
-              ]
-            },
-            {
-              "type": {
-                "value": "CompareObjectTimer"
-              },
-              "parameters": [
-                "Alerts",
-                "\"Time Visible\"",
-                ">=",
-                "4"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Alerts"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Mirror player image depending on direction of movement"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
-              },
-              "parameters": [
-                "Mender",
-                "TopDownMovement",
-                "0",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Mender",
-                "Flippable",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "TopDownMovementBehavior::TopDownMovementBehavior::IsMovementAngleAround"
-              },
-              "parameters": [
-                "Mender",
-                "TopDownMovement",
-                "180",
-                "0"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "FlippableCapability::FlippableBehavior::FlipX"
-              },
-              "parameters": [
-                "Mender",
-                "Flippable",
-                "no"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Move the camera to center on the mender (you have to do this for every layer that you want to move)"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": [
-            {
-              "type": {
-                "value": "ZoomCamera"
-              },
-              "parameters": [
-                "",
-                "3",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Mender",
-                "",
-                "\"Player\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Mender",
-                "",
-                "\"Shadow\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Mender",
-                "",
-                "\"Canvas\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Mender",
-                "",
-                "\"Maze\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "dropshadow",
-                "=",
-                "Mender.X() - 16",
-                "=",
-                "Mender.Y() + 90"
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "If player collides with wall"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Mender",
-                "Wall",
-                "",
-                "",
-                "no"
-              ]
-            }
-          ],
-          "actions": []
-        }
-      ],
-      "layers": [
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [
-            {
-              "defaultSize": true,
-              "defaultViewport": true,
-              "height": 0,
-              "viewportBottom": 1,
-              "viewportLeft": 0,
-              "viewportRight": 1,
-              "viewportTop": 0,
-              "width": 0
-            }
-          ],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Canvas",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Shadow",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            },
-            {
-              "effectType": "BlendingMode",
-              "name": "Effect",
-              "doubleParameters": {
-                "blendmode": 2,
-                "opacity": 0.1
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Player",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 200,
-          "ambientLightColorG": 200,
-          "ambientLightColorR": 200,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": false,
-          "isLightingLayer": false,
-          "isLocked": false,
-          "name": "Maze",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": [
-            {
-              "effectType": "Scene3D::HemisphereLight",
-              "name": "3D Light",
-              "doubleParameters": {
-                "elevation": 45,
-                "intensity": 1,
-                "rotation": 0
-              },
-              "stringParameters": {
-                "groundColor": "64;64;64",
-                "skyColor": "255;255;255",
-                "top": "Y-"
-              },
-              "booleanParameters": {}
-            }
-          ]
-        },
-        {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": true,
-          "isLightingLayer": true,
-          "isLocked": false,
-          "name": "Lighting",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
-        }
-      ],
-      "behaviorsSharedData": [
         {
           "name": "Animation",
           "type": "AnimatableCapability::AnimatableBehavior"
