@@ -1,5 +1,5 @@
 {
-  "firstLayout": "",
+  "firstLayout": "Intro",
   "gdVersion": {
     "build": 99,
     "major": 4,
@@ -1138,7 +1138,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.561095208358207,
+        "zoomFactor": 0.4163025217733332,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1152,6 +1152,37 @@
               "type": "array",
               "children": [
                 {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Narrator"
+                },
+                {
+                  "type": "string",
+                  "value": "In an undisclosed location, a new client has set up a meeting with you to discuss your role as a Mender."
+                }
+              ]
+            },
+            {
+              "name": "1",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Narrator"
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "You will explain your procedure and if accepted, enter the client's mind and cleanse it of any disruptions."
+                }
+              ]
+            },
+            {
+              "name": "2",
+              "type": "array",
+              "children": [
+                {
                   "type": "string",
                   "value": "Mender"
                 },
@@ -1162,7 +1193,7 @@
               ]
             },
             {
-              "name": "1",
+              "name": "3",
               "type": "array",
               "children": [
                 {
@@ -1179,9 +1210,26 @@
         },
         {
           "folded": true,
-          "name": "CurrentDialog",
+          "name": "CurrentDialoge",
           "type": "number",
           "value": 0
+        },
+        {
+          "folded": true,
+          "name": "CurrentDialogueText",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "folded": true,
+          "name": "CurrentSpeaker",
+          "type": "string",
+          "value": ""
+        },
+        {
+          "name": "DialogueComplete",
+          "type": "boolean",
+          "value": false
         }
       ],
       "instances": [
@@ -1203,14 +1251,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 125,
           "layer": "Text",
           "name": "dialogue",
           "persistentUuid": "12150fbd-c042-462c-83dc-6645fdad34e2",
-          "width": 0,
-          "x": 96,
-          "y": 890,
+          "width": 448,
+          "x": 160,
+          "y": 899,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1221,12 +1270,59 @@
           "customSize": false,
           "height": 0,
           "layer": "",
-          "name": "NewSprite",
+          "name": "TextBox",
           "persistentUuid": "713ac352-8558-4ced-89bc-25cde9ce058c",
           "width": 0,
           "x": 32,
           "y": 864,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 29,
+          "layer": "",
+          "name": "name",
+          "persistentUuid": "c98cd18b-67bb-49af-a65a-adf3c4f99b48",
+          "width": 96,
+          "x": 64,
+          "y": 896,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 28,
+          "layer": "",
+          "name": "Arrow",
+          "persistentUuid": "245406bf-b3c7-4691-b848-feaf13685244",
+          "width": 18,
+          "x": 558,
+          "y": 1024,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "name": "helper",
+          "persistentUuid": "6dc42070-218c-4a81-b0e1-bf963facafff",
+          "width": 0,
+          "x": 547,
+          "y": 1028,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1379,7 +1475,7 @@
               "CurrentCharacter": ""
             }
           ],
-          "string": "Hello this is a test.",
+          "string": "",
           "font": "assets/fonts/rainyhearts.ttf",
           "textAlignment": "left",
           "characterSize": 30,
@@ -1392,7 +1488,7 @@
         {
           "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "NewSprite",
+          "name": "TextBox",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -1448,6 +1544,146 @@
               ]
             }
           ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "name",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "string": "",
+          "font": "assets/fonts/rainyhearts.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "876c096f2525e4793e095052f0176702c9813a6f3282f1a779e43c102a65bcc8",
+          "name": "Arrow",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.025,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "Chevron-Arrow-Right.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 0
+                          },
+                          {
+                            "x": 9,
+                            "y": 14
+                          },
+                          {
+                            "x": 0,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": false,
+          "italic": false,
+          "name": "helper",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "string": "e",
+          "font": "assets/fonts/rainyhearts.ttf",
+          "textAlignment": "left",
+          "characterSize": 20,
+          "color": {
+            "b": 255,
+            "g": 255,
+            "r": 255
+          }
         }
       ],
       "objectsFolderStructure": {
@@ -1460,7 +1696,16 @@
             "objectName": "dialogue"
           },
           {
-            "objectName": "NewSprite"
+            "objectName": "name"
+          },
+          {
+            "objectName": "TextBox"
+          },
+          {
+            "objectName": "Arrow"
+          },
+          {
+            "objectName": "helper"
           }
         ]
       },
@@ -1494,6 +1739,18 @@
               "parameters": [
                 "Cinematic",
                 "\"zoom\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusic"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music.wav",
+                "yes",
+                "50",
+                ""
               ]
             }
           ]
@@ -1529,14 +1786,212 @@
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "dialogue",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "e"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "CurrentDialoge",
+                        "<",
+                        "VariableChildCount(Dialogue) - 1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "CurrentDialoge",
+                        "+",
+                        "1"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "CurrentDialoge",
+                        ">=",
+                        "VariableChildCount(Dialogue) - 1"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SetSceneVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "DialogueComplete",
+                        "True"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "type": "BuiltinCommonInstructions::Repeat",
-          "repeatExpression": "VariableChildCount(Dialogue)",
+          "type": "BuiltinCommonInstructions::Standard",
           "conditions": [],
-          "actions": []
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "CurrentDialogueText",
+                "=",
+                "Dialogue[ToString(CurrentDialoge)][1]"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarSceneTxt"
+              },
+              "parameters": [
+                "CurrentSpeaker",
+                "=",
+                "Dialogue[ToString(CurrentDialoge)][0]"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "dialogue",
+                "Text",
+                "=",
+                "CurrentDialogueText"
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "name",
+                "Text",
+                "=",
+                "CurrentSpeaker + \": \""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "VarScene"
+              },
+              "parameters": [
+                "CurrentDialoge",
+                ">",
+                "1"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::SetName"
+              },
+              "parameters": [
+                "Cinematic",
+                "Animation",
+                "=",
+                "\"Dialogue\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "AutoTyping::Text_AutoTyping::TypingFinished"
+              },
+              "parameters": [
+                "dialogue",
+                "Text_AutoTyping",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Space"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AutoTyping::Text_AutoTyping::SkipToEnd"
+                  },
+                  "parameters": [
+                    "dialogue",
+                    "Text_AutoTyping",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "layers": [
@@ -1679,7 +2134,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.37084940707722647,
+        "zoomFactor": 0.13712159660293288,
         "windowMask": false
       },
       "objectsGroups": [],
