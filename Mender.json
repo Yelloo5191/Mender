@@ -1188,7 +1188,7 @@
                 },
                 {
                   "type": "string",
-                  "value": "Yooo what's good my guy"
+                  "value": "So, do you understand that the procedure can be considered invasive to some? I'll have direct access to emotions and memories that could be private."
                 }
               ]
             },
@@ -1198,11 +1198,39 @@
               "children": [
                 {
                   "type": "string",
-                  "value": "Client"
+                  "value": "Jack"
                 },
                 {
                   "type": "string",
-                  "value": "Ayyyy whats good gang"
+                  "value": "I understand. I just want to feel at peace."
+                }
+              ]
+            },
+            {
+              "name": "4",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": "Mender"
+                },
+                {
+                  "type": "string",
+                  "value": "In that case, let us begin."
+                }
+              ]
+            },
+            {
+              "name": "5",
+              "type": "array",
+              "children": [
+                {
+                  "type": "string",
+                  "value": " "
+                },
+                {
+                  "type": "string",
+                  "value": "ZWOOOP"
                 }
               ]
             }
@@ -1749,7 +1777,7 @@
                 "",
                 "assets\\music\\music.wav",
                 "yes",
-                "50",
+                "25",
                 ""
               ]
             }
@@ -1865,6 +1893,15 @@
                         "DialogueComplete",
                         "True"
                       ]
+                    },
+                    {
+                      "type": {
+                        "value": "ResetTimer"
+                      },
+                      "parameters": [
+                        "",
+                        "\"end\""
+                      ]
                     }
                   ]
                 }
@@ -1915,7 +1952,7 @@
                 "name",
                 "Text",
                 "=",
-                "CurrentSpeaker + \": \""
+                "CurrentSpeaker + \" : \""
               ]
             }
           ]
@@ -1987,6 +2024,76 @@
                     "dialogue",
                     "Text_AutoTyping",
                     ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"end\"",
+                ">=",
+                "3"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DialogueComplete",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Main\"",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "DialogueComplete",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"end\""
                   ]
                 }
               ]
