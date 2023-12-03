@@ -1138,7 +1138,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.4163025217733332,
+        "zoomFactor": 0.3895856273827293,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -1265,11 +1265,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1080,
+          "height": 1184,
           "layer": "",
           "name": "Cinematic",
           "persistentUuid": "d77ec069-a094-43ea-8bf9-ad63b6e07910",
-          "width": 1920,
+          "width": 2105,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -2041,7 +2041,7 @@
                 "",
                 "\"end\"",
                 ">=",
-                "3"
+                "2"
               ]
             }
           ],
