@@ -991,6 +991,402 @@
         "name": "NewSprite",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption7.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/disruption10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type2\\disruption10.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption8.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type3/disruption10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type3\\disruption10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption9.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type4/disruption10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\disruptions\\type4\\disruption10.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player7.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player7.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/player/player8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\player\\player8.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/sense/sense1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\sense\\sense1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/sense/sense2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\sense\\sense2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/sense/sense3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\sense\\sense3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/sense/sense4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\sense\\sense4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/sense/sense5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\sense\\sense5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/sense/sense6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\sense\\sense6.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -1054,12 +1450,12 @@
           "useMultipleDirections": false,
           "directions": [
             {
-              "looping": false,
+              "looping": true,
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "assets/player.png",
+                  "image": "assets\\player\\player1.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -1075,19 +1471,271 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 4,
+                        "x": 2,
                         "y": 1
                       },
                       {
-                        "x": 29,
+                        "x": 31,
                         "y": 1
                       },
                       {
-                        "x": 29,
+                        "x": 31,
                         "y": 46
                       },
                       {
-                        "x": 4,
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player2.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player3.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player4.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player5.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player6.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player7.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
+                        "y": 46
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\player\\player8.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 2,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 1
+                      },
+                      {
+                        "x": 31,
+                        "y": 46
+                      },
+                      {
+                        "x": 2,
                         "y": 46
                       }
                     ]
@@ -1225,6 +1873,24 @@
           "name": "1",
           "type": "boolean",
           "value": false
+        },
+        {
+          "folded": true,
+          "name": "2",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "3",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "4",
+          "type": "boolean",
+          "value": false
         }
       ]
     }
@@ -1250,7 +1916,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.9538618542089532,
+        "zoomFactor": 0.36458333333333454,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3337,7 +4003,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.2490926413946538,
+        "zoomFactor": 0.1910453349292134,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -3417,9 +4083,9 @@
           "layer": "Text",
           "name": "Alerts",
           "persistentUuid": "fa6a7e8d-855c-4ae3-8096-2fad90bd3ecb",
-          "width": 1914,
-          "x": 4,
-          "y": 1011,
+          "width": 1600,
+          "x": 128,
+          "y": 960,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -3434,8 +4100,8 @@
           "name": "disruption1",
           "persistentUuid": "c2a3b5f8-feb1-4aff-97b9-8e96a2eb8ece",
           "width": 611,
-          "x": 2261,
-          "y": 223,
+          "x": 2639,
+          "y": 495,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -3447,12 +4113,94 @@
           "depth": 36,
           "height": 2240,
           "layer": "Transition",
+          "locked": true,
           "name": "Transition",
           "persistentUuid": "cd3b7e10-3d25-4feb-87ec-22f02c3f5dd9",
+          "sealed": true,
           "width": 2240,
           "x": 928,
           "y": 512,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 611,
+          "layer": "Disruption",
+          "name": "disruption2",
+          "persistentUuid": "7acd1375-bacd-497e-960e-76e127226d84",
+          "width": 611,
+          "x": 1327,
+          "y": 2575,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 611,
+          "layer": "Disruption",
+          "name": "disruption3",
+          "persistentUuid": "f2a2b2e2-9157-4a57-9f04-bc9054364e41",
+          "width": 611,
+          "x": -721,
+          "y": 1682,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 611,
+          "layer": "Disruption",
+          "name": "disruption4",
+          "persistentUuid": "31fd85e6-caf2-466d-bde5-e046933e5260",
+          "width": 611,
+          "x": -416,
+          "y": -1056,
+          "zOrder": 8,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1056,
+          "layer": "",
+          "name": "Trigger2",
+          "persistentUuid": "f4e63ffd-4f05-4e36-9c25-67e957ed4d7f",
+          "width": 1088,
+          "x": 736,
+          "y": 2048,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 160,
+          "layer": "FX",
+          "name": "Sense",
+          "persistentUuid": "0f9d2569-8305-40dc-87ab-170636c56ad4",
+          "width": 160,
+          "x": 960,
+          "y": 480,
+          "zOrder": 10,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3584,7 +4332,21 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Glow",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "219;175;253"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "animations": [
             {
@@ -3601,8 +4363,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3637,8 +4399,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3673,8 +4435,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3709,8 +4471,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3745,8 +4507,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3781,8 +4543,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3817,8 +4579,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3853,8 +4615,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3889,8 +4651,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -3925,8 +4687,8 @@
                       "points": [],
                       "originPoint": {
                         "name": "origine",
-                        "x": 0,
-                        "y": 0
+                        "x": 32,
+                        "y": 32
                       },
                       "centerPoint": {
                         "automatic": true,
@@ -4021,6 +4783,1800 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "disruption2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glitch",
+              "name": "Glitch",
+              "doubleParameters": {
+                "animationFrequency": 60,
+                "blueX": 10,
+                "blueY": -4,
+                "direction": 0,
+                "fillMode": 0,
+                "greenX": 10,
+                "greenY": -4,
+                "minSize": 8,
+                "offset": 100,
+                "redX": 2,
+                "redY": 2,
+                "sampleSize": 512,
+                "slices": 5
+              },
+              "stringParameters": {},
+              "booleanParameters": {
+                "average": false
+              }
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Disrupted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type2\\disruption10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Trigger2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "disruption3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Pixelate",
+              "name": "Effect",
+              "doubleParameters": {
+                "size": 20
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "AdvancedBloom",
+              "name": "Effect2",
+              "doubleParameters": {
+                "bloomScale": 0.7,
+                "blur": 4,
+                "brightness": 0.7,
+                "padding": 0,
+                "quality": 7,
+                "threshold": 0.5
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Disrupted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type3\\disruption10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": false,
+                        "name": "centre",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "disruption4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Dot",
+              "name": "Effect",
+              "doubleParameters": {
+                "angle": 5,
+                "scale": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Disrupted",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.12,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption7.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption8.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption9.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\disruptions\\type4\\disruption10.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 32,
+                        "y": 32
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 9,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 10
+                          },
+                          {
+                            "x": 55,
+                            "y": 53
+                          },
+                          {
+                            "x": 9,
+                            "y": 53
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Trigger3",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "Trigger4",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Sense",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [
+            {
+              "folded": true,
+              "name": "Rot",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TargetX",
+              "type": "number",
+              "value": 0
+            },
+            {
+              "name": "TargetY",
+              "type": "number",
+              "value": 0
+            }
+          ],
+          "effects": [
+            {
+              "effectType": "Outline",
+              "name": "Effect",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "199;199;199"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Glow",
+              "name": "Effect2",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "223;245;209"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "On",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\sense\\sense1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 21
+                          },
+                          {
+                            "x": 2,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\sense\\sense2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 21
+                          },
+                          {
+                            "x": 2,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\sense\\sense3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 21
+                          },
+                          {
+                            "x": 2,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\sense\\sense4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 21
+                          },
+                          {
+                            "x": 2,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\sense\\sense5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 21
+                          },
+                          {
+                            "x": 2,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\sense\\sense6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 2,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 9
+                          },
+                          {
+                            "x": 32,
+                            "y": 21
+                          },
+                          {
+                            "x": 2,
+                            "y": 21
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -4029,6 +6585,39 @@
           {
             "folderName": "Puzzles",
             "children": [
+              {
+                "folderName": "4",
+                "children": [
+                  {
+                    "objectName": "Trigger4"
+                  },
+                  {
+                    "objectName": "disruption4"
+                  }
+                ]
+              },
+              {
+                "folderName": "3",
+                "children": [
+                  {
+                    "objectName": "Trigger3"
+                  },
+                  {
+                    "objectName": "disruption3"
+                  }
+                ]
+              },
+              {
+                "folderName": "2",
+                "children": [
+                  {
+                    "objectName": "disruption2"
+                  },
+                  {
+                    "objectName": "Trigger2"
+                  }
+                ]
+              },
               {
                 "folderName": "1",
                 "children": [
@@ -4047,6 +6636,9 @@
           },
           {
             "objectName": "Transition"
+          },
+          {
+            "objectName": "Sense"
           }
         ]
       },
@@ -4082,6 +6674,52 @@
               },
               "parameters": [
                 "Alerts"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "disruption2"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "disruption3"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "disruption4"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Sense",
+                "TargetX",
+                "=",
+                "disruption1.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Sense",
+                "TargetY",
+                "=",
+                "disruption1.Y()"
               ]
             }
           ]
@@ -4220,6 +6858,18 @@
             },
             {
               "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"FX\"",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
@@ -4258,15 +6908,6 @@
                 "",
                 ""
               ]
-            },
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "Puzzles_State.1",
-                "False"
-              ]
             }
           ],
           "actions": [],
@@ -4276,7 +6917,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SceneVariableAsBoolean"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "Puzzles_State.1",
@@ -4349,7 +6990,7 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "SceneVariableAsBoolean"
+                    "value": "GlobalVariableAsBoolean"
                   },
                   "parameters": [
                     "Puzzles_State.1",
@@ -4385,6 +7026,330 @@
                   "parameters": [
                     "Alerts",
                     "\"Time Visible\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "When player enters the region for puzzle 2, if puzzle 2 is not solved already, start puzzle 2"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Trigger2",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Puzzles_State.2",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"Another disruption? This one looks... different. Press e to attempt to resolve it.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "KeyPressed"
+                      },
+                      "parameters": [
+                        "",
+                        "e"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Scene"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Puzzle 2\"",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Puzzles_State.2",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "Text",
+                    "=",
+                    "\"This disruption has already been resolved.\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Alerts",
+                    "\"Time Visible\""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Handle puzzle state\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Puzzles_State.1",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "disruption2",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Sense",
+                "TargetX",
+                "=",
+                "disruption2.X()"
+              ]
+            },
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Sense",
+                "TargetY",
+                "=",
+                "disruption2.Y()"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Puzzles_State.2",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "disruption3",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sense",
+                    "TargetY",
+                    "=",
+                    "disruption3.Y()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Sense",
+                    "TargetX",
+                    "=",
+                    "disruption3.X()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "GlobalVariableAsBoolean"
+                      },
+                      "parameters": [
+                        "Puzzles_State.2",
+                        "True"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Montre"
+                      },
+                      "parameters": [
+                        "disruption4",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Sense",
+                        "TargetX",
+                        "=",
+                        "disruption4.X()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Sense",
+                        "TargetY",
+                        "=",
+                        "disruption4.Y()"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "GlobalVariableAsBoolean"
+                          },
+                          "parameters": [
+                            "Puzzles_State.3",
+                            "True"
+                          ]
+                        }
+                      ],
+                      "actions": []
+                    }
                   ]
                 }
               ]
@@ -4428,38 +7393,6 @@
                     "Alerts"
                   ]
                 }
-              ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "GlobalVariableAsBoolean"
-              },
-              "parameters": [
-                "Puzzles_State.1",
-                "True"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "disruption1"
-              ]
-            },
-            {
-              "type": {
-                "value": "Cache"
-              },
-              "parameters": [
-                "Trigger1"
               ]
             }
           ]
@@ -4515,6 +7448,86 @@
               },
               "parameters": [
                 "Transition"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjet"
+              },
+              "parameters": [
+                "Sense",
+                "Rot",
+                "=",
+                "AngleBetweenPositions(Mender.X(), Mender.Y(), Sense.TargetX, Sense.TargetY)"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreAutour"
+              },
+              "parameters": [
+                "Sense",
+                "Mender",
+                "128",
+                "Sense.Rot"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Sense",
+                "Scale",
+                "=",
+                "1/DistanceBetweenPositions(Mender.X(), Mender.Y(), Sense.TargetX, Sense.TargetY) * 5000"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetAngle"
+              },
+              "parameters": [
+                "Sense",
+                "=",
+                "Sense.Rot"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::Value"
+                  },
+                  "parameters": [
+                    "Sense",
+                    "Scale",
+                    ">=",
+                    "3"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ScalableCapability::ScalableBehavior::SetValue"
+                  },
+                  "parameters": [
+                    "Sense",
+                    "Scale",
+                    "=",
+                    "3"
+                  ]
+                }
               ]
             }
           ]
@@ -4749,6 +7762,38 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "FX",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -4814,7 +7859,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.237185031489384,
+        "zoomFactor": 0.28940472885310853,
         "windowMask": false
       },
       "objectsGroups": [
@@ -5169,9 +8214,9 @@
           "layer": "Text",
           "name": "Alerts",
           "persistentUuid": "5c4b2263-9d0b-4974-94dd-02512c4675f4",
-          "width": 1920,
-          "x": 0,
-          "y": 1024,
+          "width": 1632,
+          "x": 160,
+          "y": 960,
           "zOrder": 13,
           "numberProperties": [],
           "stringProperties": [],
@@ -6942,7 +9987,7 @@
                     "Alerts",
                     "\"Time Visible\"",
                     ">=",
-                    "4"
+                    "5"
                   ]
                 }
               ],
@@ -7181,7 +10226,7 @@
                     "Alerts",
                     "Text",
                     "=",
-                    "\"Looks like a canvas of emotion. You'll need to organize the scattered emotions and states of mind.\""
+                    "\"Looks like a canvas of emotion. You'll need to organize the scattered emotions and states of mind. Press e to pick up and place a shard and x to drop it.\""
                   ]
                 },
                 {
@@ -9422,6 +12467,113 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        }
+      ],
+      "behaviorsSharedData": [
+        {
+          "name": "Animation",
+          "type": "AnimatableCapability::AnimatableBehavior"
+        },
+        {
+          "name": "Effect",
+          "type": "EffectCapability::EffectBehavior"
+        },
+        {
+          "name": "Flippable",
+          "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "Opacity",
+          "type": "OpacityCapability::OpacityBehavior"
+        },
+        {
+          "name": "RemapForTopdown",
+          "type": "BehaviorRemapper::RemapForTopdown"
+        },
+        {
+          "name": "Resizable",
+          "type": "ResizableCapability::ResizableBehavior"
+        },
+        {
+          "name": "Scale",
+          "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngleScale",
+          "type": "ShakeObject::ShakeObject_PositionAngleScale"
+        },
+        {
+          "name": "Text",
+          "type": "TextContainerCapability::TextContainerBehavior"
+        },
+        {
+          "name": "TopDownMovement",
+          "type": "TopDownMovementBehavior::TopDownMovementBehavior"
+        }
+      ]
+    },
+    {
+      "b": 209,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Puzzle_322",
+      "name": "Puzzle 2",
+      "r": 209,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 209,
+      "uiSettings": {},
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [],
+      "objects": [],
+      "objectsFolderStructure": {
+        "folderName": "__ROOT"
+      },
+      "events": [],
+      "layers": [
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
           "effects": [
             {
               "effectType": "Scene3D::HemisphereLight",
