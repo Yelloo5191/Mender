@@ -1387,6 +1387,176 @@
         "name": "assets\\effects\\sense\\sense6.png",
         "smoothed": false,
         "userAdded": false
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/world/base_map.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets\\world\\base_map.json",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/vein/vein1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\vein\\vein1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/vein/vein2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\vein\\vein2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/vein/vein3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\vein\\vein3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/vein/vein4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\vein\\vein4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/vein/vein5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\vein\\vein5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/vein/vein6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\vein\\vein6.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/memory/memory1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\memory\\memory1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/memory/memory2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\memory\\memory2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/memory/memory3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\memory\\memory3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/memory/memory4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\memory\\memory4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/memory/memory5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\memory\\memory5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/memory/memory6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\memory\\memory6.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/phone/phone1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\phone\\phone1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/phone/phone2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\phone\\phone2.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/phone/phone3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\phone\\phone3.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/phone/phone4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\phone\\phone4.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/phone/phone5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\phone\\phone5.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/effects/decor/phone/phone6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\effects\\decor\\phone\\phone6.png",
+        "smoothed": false,
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -4003,7 +4173,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.1910453349292134,
+        "zoomFactor": 0.14174538210151402,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -4021,24 +4191,6 @@
           "x": 770,
           "y": 440,
           "zOrder": 1,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 6,
-          "height": 5068,
-          "layer": "Ground Tiles",
-          "locked": true,
-          "name": "World",
-          "persistentUuid": "7a3d6eca-8b43-4ada-83b5-da7b6df90bde",
-          "sealed": true,
-          "width": 5068,
-          "x": -1421,
-          "y": -1900,
-          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4204,6 +4356,216 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 0,
+          "height": 6588.9,
+          "layer": "Ground Tiles",
+          "locked": true,
+          "name": "World",
+          "persistentUuid": "6ffe63dc-f401-453e-a6b8-fee89e1bceea",
+          "sealed": true,
+          "width": 10136,
+          "x": -3840,
+          "y": -2621,
+          "zOrder": 11,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 5,
+          "height": 288,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "f9c9d933-8ac7-4f60-b046-25c5d9f7a77b",
+          "width": 288,
+          "x": 1568,
+          "y": 704,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 79,
+          "customSize": true,
+          "depth": 5,
+          "height": 288,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "a62a3f36-150e-4f71-ba6c-fbbb99a2a488",
+          "width": 288,
+          "x": -793,
+          "y": -167,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 301,
+          "customSize": true,
+          "depth": 4,
+          "height": 231,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "e2d44cc5-b456-47bd-b61b-48ee3359094a",
+          "width": 231,
+          "x": 110,
+          "y": 2222,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 29,
+          "customSize": true,
+          "depth": 5,
+          "height": 288,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "7069dfe0-3088-4524-b118-e98dfbff3b97",
+          "width": 288,
+          "x": 4502,
+          "y": 938,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 91,
+          "customSize": true,
+          "depth": 5,
+          "height": 288,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "ce3a785b-c1f0-404f-b37a-9172531c0b9b",
+          "width": 288,
+          "x": 2732,
+          "y": -1428,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 100,
+          "customSize": true,
+          "depth": 8,
+          "height": 463,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "76b0ece3-3272-40c5-85b5-a22a6444934e",
+          "width": 463,
+          "x": -2036,
+          "y": -1023,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 218,
+          "customSize": true,
+          "depth": 12,
+          "height": 676,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "ab6ee7cf-cc74-4ca2-9c8f-8bf97fea1227",
+          "width": 676,
+          "x": 3198,
+          "y": 2622,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 191,
+          "customSize": true,
+          "depth": 12,
+          "height": 676,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "26039721-364a-4a5e-9401-e1c8f0213a0b",
+          "width": 676,
+          "x": -2814,
+          "y": 2562,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 333,
+          "customSize": true,
+          "depth": 12,
+          "height": 676,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "c4b8856f-0c98-427f-b805-708c5c20f8b7",
+          "width": 676,
+          "x": 4340,
+          "y": -1976,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 37,
+          "customSize": true,
+          "depth": 4,
+          "height": 224,
+          "layer": "Ground Tiles",
+          "name": "Vein",
+          "persistentUuid": "ee613d97-0767-4f56-86fa-6fc3a28042cb",
+          "width": 224,
+          "x": 153,
+          "y": -2233,
+          "zOrder": 12,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 4,
+          "height": 224,
+          "layer": "Memories",
+          "name": "Memory",
+          "persistentUuid": "b7e7c784-035e-453a-924c-471a0cde7847",
+          "width": 224,
+          "x": 1920,
+          "y": 1984,
+          "zOrder": 13,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 2,
+          "height": 128,
+          "layer": "Memories",
+          "name": "Phone",
+          "persistentUuid": "83c5676e-2b79-41b3-8959-7544a604ab15",
+          "width": 128,
+          "x": -1568,
+          "y": 64,
+          "zOrder": 14,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -4215,7 +4577,7 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "assets/world/base_map.json",
+            "tilemapJsonFile": "assets\\world\\base_map.json",
             "tilesetJsonFile": "",
             "tilemapAtlasImage": "assets/tiles/tilemap.png",
             "displayMode": "visible",
@@ -6577,11 +6939,827 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Vein",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "DropShadow",
+              "name": "Effect",
+              "doubleParameters": {
+                "alpha": 1,
+                "blur": 2,
+                "distance": 1,
+                "padding": 0,
+                "quality": 3,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "color": "56;55;59"
+              },
+              "booleanParameters": {
+                "shadowOnly": false
+              }
+            },
+            {
+              "effectType": "KawaseBlur",
+              "name": "Effect2",
+              "doubleParameters": {
+                "blur": 0.5,
+                "padding": 0,
+                "pixelizeX": 1,
+                "pixelizeY": 1,
+                "quality": 3
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "Veiny",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\vein\\vein1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 5,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\vein\\vein2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 5,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\vein\\vein3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 5,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\vein\\vein4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 5,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\vein\\vein5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 5,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\vein\\vein6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 5,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 63
+                          },
+                          {
+                            "x": 5,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Memory",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "BlendingMode",
+              "name": "Effect3",
+              "doubleParameters": {
+                "blendmode": 3,
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            },
+            {
+              "effectType": "Outline",
+              "name": "Effect4",
+              "doubleParameters": {
+                "padding": 0,
+                "thickness": 2
+              },
+              "stringParameters": {
+                "color": "255;255;255"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\memory\\memory1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\memory\\memory2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\memory\\memory3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\memory\\memory4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\memory\\memory5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\memory\\memory6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 2
+                          },
+                          {
+                            "x": 61,
+                            "y": 62
+                          },
+                          {
+                            "x": 3,
+                            "y": 62
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Phone",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "163;144;219"
+              },
+              "booleanParameters": {}
+            }
+          ],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": true,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\phone\\phone1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\phone\\phone2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\phone\\phone3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\phone\\phone4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\phone\\phone5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets\\effects\\decor\\phone\\phone6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 12,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 9
+                          },
+                          {
+                            "x": 58,
+                            "y": 61
+                          },
+                          {
+                            "x": 12,
+                            "y": 61
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
         "folderName": "__ROOT",
         "children": [
+          {
+            "folderName": "Decor",
+            "children": [
+              {
+                "objectName": "Phone"
+              },
+              {
+                "objectName": "Memory"
+              },
+              {
+                "objectName": "Vein"
+              }
+            ]
+          },
           {
             "folderName": "Puzzles",
             "children": [
@@ -6870,6 +8048,18 @@
             },
             {
               "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Memories\"",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
@@ -7072,6 +8262,15 @@
                   "parameters": [
                     "Puzzles_State.2",
                     ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "GlobalVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Puzzles_State.1",
+                    "True"
                   ]
                 }
               ],
@@ -7531,6 +8730,107 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Memory",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Alerts",
+                "Text",
+                "=",
+                "\"A reminiscent shard. How beautiful.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Alerts",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Alerts",
+                "\"Time Visible\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Phone",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Alerts",
+                "Text",
+                "=",
+                "\"An object of reference! This must have been Jack's first phone. A lot's changed since then..\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Alerts",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Alerts",
+                "\"Time Visible\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         }
       ],
       "layers": [
@@ -7645,6 +8945,38 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
+          "name": "Memories",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
           "name": "Player",
           "renderingType": "",
           "visibility": true,
@@ -7741,7 +9073,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "Transition",
+          "name": "FX",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
@@ -7773,7 +9105,7 @@
           "followBaseLayerCamera": false,
           "isLightingLayer": false,
           "isLocked": false,
-          "name": "FX",
+          "name": "Transition",
           "renderingType": "",
           "visibility": true,
           "cameras": [],

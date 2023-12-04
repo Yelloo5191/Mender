@@ -1,32 +1,32 @@
 { "compressionlevel":-1,
- "height":30,
+ "height":40,
  "infinite":false,
  "layers":[
         {
          "compression":"zlib",
-         "data":"eJztzaERACAQA8EAAhAP\/XdLqsggTqzeJqmHDZu2wjYvLy8vLy8vLy8vL++Hb9kJu\/YAddwcIQ==",
+         "data":"eJztz7EBABAMAMGgQIH9t5U5Pl\/cANciohcx0kyriO0XzS+bXza\/bH7Z\/LL5ZfPL5pfNL5tfNr9sftn8svll88vml80vW8XvSbeIlz67hUsB",
          "encoding":"base64",
-         "height":30,
+         "height":40,
          "id":2,
          "name":"Tile Layer 1",
          "opacity":1,
          "type":"tilelayer",
          "visible":true,
-         "width":30,
+         "width":60,
          "x":0,
          "y":0
         }, 
         {
          "compression":"zlib",
-         "data":"eJztzaERACAQA8EIQADiof9iSRUZxInV2yT1sGHTVtjm5eXl5eXl5eXl5eX98C07Ydcet6omrQ==",
+         "data":"eJztz7ENgDAQBMEPjANDYNN\/sbgA4kNCs9IWMK2qjvC9vmvsz\/BXRPYeLy8vLy8vbz5eXl5eXl7efLy8vLy8vLz5eHn\/5J37Ff6OyCRJkpToAeuQJq0=",
          "encoding":"base64",
-         "height":30,
+         "height":40,
          "id":3,
          "name":"Tile Layer 2",
          "opacity":1,
          "type":"tilelayer",
          "visible":false,
-         "width":30,
+         "width":60,
          "x":0,
          "y":0
         }],
@@ -34,7 +34,7 @@
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
- "tiledversion":"1.10.2",
+ "tiledversion":"1.8.6",
  "tileheight":32,
  "tilesets":[
         {
@@ -52,6 +52,6 @@
         }],
  "tilewidth":32,
  "type":"map",
- "version":"1.10",
- "width":30
+ "version":"1.8",
+ "width":60
 }
