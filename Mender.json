@@ -2463,6 +2463,33 @@
           "identifier": "https://asset-resources.gdevelop.io/public-resources/Particles/PixiJS/04556cffa8fa75a9515382f3ad3d092361a7a339c612344926d372f906e3e7ed_Gas.png",
           "name": "Gas.png"
         }
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dark.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Dark",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "disablePreload": false,
+        "file": "assets/world/puzzle_2_map.json",
+        "kind": "tilemap",
+        "metadata": "",
+        "name": "assets\\world\\puzzle_2_map.json",
+        "userAdded": true
+      },
+      {
+        "file": "assets/music/bad_dream.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "assets\\music\\bad_dream.wav",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "preloadInCache": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -4330,18 +4357,6 @@
             },
             {
               "type": {
-                "value": "PlayMusic"
-              },
-              "parameters": [
-                "",
-                "assets\\music\\music.wav",
-                "yes",
-                "25",
-                ""
-              ]
-            },
-            {
-              "type": {
                 "value": "Cache"
               },
               "parameters": [
@@ -4370,6 +4385,19 @@
               },
               "parameters": [
                 "Transition"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music.wav",
+                "1",
+                "yes",
+                "25",
+                "1"
               ]
             }
           ]
@@ -5079,7 +5107,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.21103068566765637,
+        "zoomFactor": 0.0890976219664505,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -14768,15 +14796,15 @@
       ]
     },
     {
-      "b": 209,
+      "b": 20,
       "disableInputWhenNotFocused": true,
       "mangledName": "Puzzle_322",
       "name": "Puzzle 2",
-      "r": 209,
+      "r": 50,
       "standardSortMethod": true,
-      "stopSoundsOnStartup": true,
+      "stopSoundsOnStartup": false,
       "title": "",
-      "v": 209,
+      "v": 20,
       "uiSettings": {
         "grid": false,
         "gridType": "rectangular",
@@ -14787,11 +14815,18 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3526904934771238,
+        "zoomFactor": 0.34118560234734774,
         "windowMask": false
       },
       "objectsGroups": [],
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "song",
+          "type": "string",
+          "value": ""
+        }
+      ],
       "instances": [
         {
           "angle": 0,
@@ -14799,8 +14834,10 @@
           "depth": 1,
           "height": 3520,
           "layer": "Ground",
+          "locked": true,
           "name": "World",
           "persistentUuid": "98208c41-dda1-4427-8d1b-e2c7ecac996a",
+          "sealed": true,
           "width": 1935,
           "x": 0,
           "y": -1750,
@@ -14859,13 +14896,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 38,
           "layer": "Text",
           "name": "Alerts",
           "persistentUuid": "babe1ced-2ebf-4c3b-b3bd-24e4608d4bc0",
-          "width": 0,
-          "x": 355,
+          "width": 1809,
+          "x": 55,
           "y": 973,
           "zOrder": 14,
           "numberProperties": [],
@@ -14897,8 +14935,8 @@
           "name": "Spotlight",
           "persistentUuid": "860cafa6-6263-4112-ade9-bb1aa3c301a6",
           "width": 600,
-          "x": 983,
-          "y": 536,
+          "x": 940,
+          "y": 540,
           "zOrder": 16,
           "numberProperties": [],
           "stringProperties": [],
@@ -15655,6 +15693,38 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 2,
+          "customSize": true,
+          "depth": 0,
+          "height": 600,
+          "layer": "Lighting",
+          "name": "Spotlight",
+          "persistentUuid": "1d99f35f-3ca2-48d2-8a2e-175be9531ce4",
+          "width": 600,
+          "x": 940,
+          "y": 540,
+          "zOrder": 16,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1489,
+          "layer": "",
+          "name": "Dark",
+          "persistentUuid": "d8756269-8390-41d4-8db9-a0470fbec51a",
+          "width": 2845,
+          "x": -451,
+          "y": -227,
+          "zOrder": 25,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15663,10 +15733,24 @@
           "name": "World",
           "type": "TileMap::TileMap",
           "variables": [],
-          "effects": [],
+          "effects": [
+            {
+              "effectType": "Glow",
+              "name": "Effect",
+              "doubleParameters": {
+                "distance": 15,
+                "innerStrength": 1,
+                "outerStrength": 2
+              },
+              "stringParameters": {
+                "color": "117;70;70"
+              },
+              "booleanParameters": {}
+            }
+          ],
           "behaviors": [],
           "content": {
-            "tilemapJsonFile": "assets/world/puzzle_map1.json",
+            "tilemapJsonFile": "assets\\world\\puzzle_2_map.json",
             "tilesetJsonFile": "",
             "tilemapAtlasImage": "assets/tiles/tilemap.png",
             "displayMode": "visible",
@@ -15884,8 +15968,8 @@
           "effects": [],
           "behaviors": [],
           "content": {
-            "radius": 300,
-            "color": "139;24;24",
+            "radius": 500,
+            "color": "175;88;88",
             "debugMode": false,
             "texture": ""
           }
@@ -15899,7 +15983,12 @@
           "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            }
+          ]
         },
         {
           "assetStoreId": "ad8096cf8d2ce498fcb3302a5ef31c6945fa43221d91a50dab766d9232437eab",
@@ -15910,7 +15999,12 @@
           "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            }
+          ]
         },
         {
           "assetStoreId": "ad8096cf8d2ce498fcb3302a5ef31c6945fa43221d91a50dab766d9232437eab",
@@ -15921,7 +16015,12 @@
           "width": 128,
           "variables": [],
           "effects": [],
-          "behaviors": []
+          "behaviors": [
+            {
+              "name": "LightObstacleBehavior",
+              "type": "Lighting::LightObstacleBehavior"
+            }
+          ]
         },
         {
           "adaptCollisionMaskAutomatically": true,
@@ -15946,7 +16045,7 @@
           "jumpForwardInTimeOnCreation": 0,
           "maxParticleNb": 1000,
           "name": "Gas",
-          "particleAlpha1": 50,
+          "particleAlpha1": 75,
           "particleAlpha2": 0,
           "particleAlphaRandomness1": 0,
           "particleAlphaRandomness2": 0,
@@ -16054,6 +16153,119 @@
               },
               "parameters": [
                 "Alerts"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
+                {
+                  "type": {
+                    "value": "MusicCanalVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    ">=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "song",
+                    "!=",
+                    "\"bad dream\""
+                  ]
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "-",
+                    "30*TimeDelta()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "PlayMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "assets\\music\\bad_dream.wav",
+                    "1",
+                    "yes",
+                    "25",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarSceneTxt"
+                  },
+                  "parameters": [
+                    "song",
+                    "=",
+                    "\"bad dream\""
+                  ]
+                }
+              ]
+            },
+            {
+              "infiniteLoopWarning": true,
+              "type": "BuiltinCommonInstructions::While",
+              "whileConditions": [
+                {
+                  "type": {
+                    "value": "MusicCanalVolume"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "<=",
+                    "25"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarSceneTxt"
+                  },
+                  "parameters": [
+                    "song",
+                    "=",
+                    "\"bad dream\""
+                  ]
+                }
+              ],
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVolumeMusicCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "1",
+                    "+",
+                    "30*TimeDelta()"
+                  ]
+                }
               ]
             }
           ]
@@ -16279,6 +16491,18 @@
             },
             {
               "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Lighting\"",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "MettreXY"
               },
               "parameters": [
@@ -16287,6 +16511,18 @@
                 "Mender.X() - 16",
                 "=",
                 "Mender.Y() + 70"
+              ]
+            },
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Spotlight",
+                "=",
+                "Mender.X() + 40",
+                "=",
+                "Mender.Y() + 62.5"
               ]
             }
           ]
@@ -16966,6 +17202,33 @@
           ]
         },
         {
+          "ambientLightColorB": 0,
+          "ambientLightColorG": 0,
+          "ambientLightColorR": 0,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": true,
+          "isLocked": false,
+          "name": "Lighting",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "BlendingMode",
+              "name": "Effect",
+              "doubleParameters": {
+                "blendmode": 1,
+                "opacity": 1
+              },
+              "stringParameters": {},
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
           "ambientLightColorB": 200,
           "ambientLightColorG": 200,
           "ambientLightColorR": 200,
@@ -16996,22 +17259,6 @@
               "booleanParameters": {}
             }
           ]
-        },
-        {
-          "ambientLightColorB": 128,
-          "ambientLightColorG": 128,
-          "ambientLightColorR": 128,
-          "camera3DFarPlaneDistance": 10000,
-          "camera3DFieldOfView": 45,
-          "camera3DNearPlaneDistance": 3,
-          "followBaseLayerCamera": true,
-          "isLightingLayer": true,
-          "isLocked": false,
-          "name": "Lighting",
-          "renderingType": "",
-          "visibility": true,
-          "cameras": [],
-          "effects": []
         }
       ],
       "behaviorsSharedData": [
@@ -17026,6 +17273,10 @@
         {
           "name": "Flippable",
           "type": "FlippableCapability::FlippableBehavior"
+        },
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
         },
         {
           "name": "Opacity",
@@ -17060,6 +17311,148 @@
   ],
   "externalEvents": [],
   "eventsFunctionsExtensions": [
+    {
+      "author": "",
+      "category": "Visual effect",
+      "extensionNamespace": "",
+      "fullName": "Sprite Based Lighting",
+      "helpPath": "",
+      "iconUrl": "data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMy4wLjMsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iSWNvbnMiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMzIgMzIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDMyIDMyOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8cGF0aCBkPSJNMjAsMjRoLThjLTAuNiwwLTEsMC40LTEsMXMwLjQsMSwxLDFoMC4xYzAuMiwyLDEuOSwzLjUsMy45LDMuNXMzLjctMS41LDMuOS0zLjVIMjBjMC42LDAsMS0wLjQsMS0xUzIwLjYsMjQsMjAsMjR6Ii8+DQo8cGF0aCBkPSJNMjIsNS4zYy0xLjktMS43LTQuNS0yLjUtNy0yLjJDMTEsMy41LDcuNyw2LjcsNy4xLDEwLjZjLTAuNCwyLjgsMC40LDUuNiwyLjQsNy43YzEsMSwxLjUsMi40LDEuNSwzLjhjMCwwLjYsMC40LDEsMSwxaDQNCgljLTAuNCwwLTAuOC0wLjMtMC45LTAuN2wtNC0xMWMtMC4yLTAuNCwwLTAuOSwwLjMtMS4xYzAuNC0wLjMsMC44LTAuMywxLjIsMGMyLDEuNSw0LjgsMS41LDYuOCwwYzAuNC0wLjMsMS4xLTAuMiwxLjQsMC4yDQoJYzAuMywwLjQsMC4yLDEuMS0wLjIsMS40Yy0yLDEuNS00LjUsMS45LTYuOCwxLjJsMi4yLDYuMWwxLjYtNC40YzAuMi0wLjUsMC44LTAuOCwxLjMtMC42YzAuNSwwLjIsMC44LDAuOCwwLjYsMS4zbC0yLjUsNw0KCUMxNi44LDIyLjcsMTYuNCwyMywxNiwyM2g0YzAuNiwwLDEtMC40LDEtMWMwLTEuNCwwLjUtMi44LDEuNS0zLjdjMS42LTEuNywyLjUtMy45LDIuNS02LjNDMjUsOS40LDIzLjksNywyMiw1LjN6Ii8+DQo8L3N2Zz4NCg==",
+      "name": "SpriteBasedLighting",
+      "previewIconUrl": "https://resources.gdevelop-app.com/assets/Icons/Glyphster Pack/Master/SVG/UI Essentials/UI Essentials_bulb.svg",
+      "shortDescription": "Make light using sprites.",
+      "version": "0.0.1",
+      "description": "Make light using sprite objects or any kind. and add the light obstacle behavior to the objects that will be affected by the light.",
+      "origin": {
+        "identifier": "SpriteBasedLighting",
+        "name": "gdevelop-extension-store"
+      },
+      "tags": [
+        "sprite",
+        "light",
+        "lighting"
+      ],
+      "authorIds": [
+        "1OgYzWp5UeVPbiWGJwI6vqfgZLC3"
+      ],
+      "dependencies": [],
+      "eventsFunctions": [],
+      "eventsBasedBehaviors": [
+        {
+          "description": "The object that will be the obstacle for the light.",
+          "fullName": "Light obstacle",
+          "name": "Light_Obstacle",
+          "objectType": "Sprite",
+          "eventsFunctions": [
+            {
+              "description": "Make light using object.",
+              "fullName": "Make the light",
+              "functionType": "Action",
+              "name": "MakeLight",
+              "sentence": "Make light using: _PARAM2_ and obstacles: _PARAM0_",
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::ForEach",
+                  "object": "Object",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "ChangeColor"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Object.VariableString(__SpriteBasedLighting.light) + \";\" +Object.VariableString(__SpriteBasedLighting.light) + \";\" +Object.VariableString(__SpriteBasedLighting.light)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ModVarObjet"
+                      },
+                      "parameters": [
+                        "Object",
+                        "__SpriteBasedLighting.light",
+                        "=",
+                        "Object.Distance(Light)-500"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "VarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__SpriteBasedLighting.light",
+                            ">=",
+                            "-250"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "ModVarObjet"
+                          },
+                          "parameters": [
+                            "Object",
+                            "__SpriteBasedLighting.light",
+                            "=",
+                            "-250"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ],
+              "parameters": [
+                {
+                  "description": "Object",
+                  "name": "Object",
+                  "supplementaryInformation": "Sprite",
+                  "type": "object"
+                },
+                {
+                  "description": "Behavior",
+                  "name": "Behavior",
+                  "supplementaryInformation": "SpriteBasedLighting::Light_Obstacle",
+                  "type": "behavior"
+                },
+                {
+                  "description": "The light",
+                  "name": "Light",
+                  "type": "objectList"
+                },
+                {
+                  "description": "Light behavior",
+                  "name": "Beh",
+                  "supplementaryInformation": "MakeLight::Light",
+                  "type": "behavior"
+                }
+              ],
+              "objectGroups": []
+            }
+          ],
+          "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        },
+        {
+          "description": "The object that will act as the light.",
+          "fullName": "Light",
+          "name": "Light",
+          "objectType": "",
+          "eventsFunctions": [],
+          "propertyDescriptors": [],
+          "sharedPropertyDescriptors": []
+        }
+      ],
+      "eventsBasedObjects": []
+    },
     {
       "author": "Arthur Pacaud (arthuro555)",
       "category": "Visual effect",
