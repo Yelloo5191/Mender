@@ -2544,6 +2544,15 @@
         "name": "assets/disruptions/type2/enemy/sleepparalysis6.png",
         "smoothed": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/jumpscare.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/jumpscare.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -3050,6 +3059,18 @@
           "value": false
         }
       ]
+    },
+    {
+      "folded": true,
+      "name": "Monster_Time",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "Monster_Seen",
+      "type": "boolean",
+      "value": false
     }
   ],
   "layouts": [
@@ -14869,7 +14890,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.34118560234734774,
+        "zoomFactor": 0.3411856023473483,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15340,9 +15361,9 @@
           "layer": "Walls",
           "name": "HorizontalWall",
           "persistentUuid": "fa784e8d-d45c-4098-a77c-3463ada6e3e1",
-          "width": 847,
-          "x": 344,
-          "y": -543,
+          "width": 1005,
+          "x": 185,
+          "y": -542,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -15352,13 +15373,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 310,
+          "height": 361,
           "layer": "Walls",
           "name": "VerticalWall",
           "persistentUuid": "29dcea59-c814-4492-9a04-7c52ce28a231",
           "width": 60,
-          "x": 292,
-          "y": -790,
+          "x": 142,
+          "y": -842,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -15464,7 +15485,7 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 306,
+          "height": 210,
           "layer": "Walls",
           "name": "VerticalWall",
           "persistentUuid": "2a06f8e0-3455-48d7-8fac-4ce6f9878832",
@@ -15500,9 +15521,9 @@
           "layer": "Walls",
           "name": "HorizontalWall",
           "persistentUuid": "07a16006-9262-403f-95eb-d2154c1fed96",
-          "width": 484,
-          "x": 293,
-          "y": -1455,
+          "width": 631,
+          "x": 147,
+          "y": -1549,
           "zOrder": 22,
           "numberProperties": [],
           "stringProperties": [],
@@ -15512,13 +15533,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 306,
+          "height": 570,
           "layer": "Walls",
           "name": "VerticalWall",
           "persistentUuid": "25d080ea-eab3-4674-8d42-fd82e632fbad",
           "width": 60,
-          "x": 294,
-          "y": -1432,
+          "x": 146,
+          "y": -1548,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -15528,29 +15549,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 62,
-          "layer": "Walls",
-          "name": "HorizontalWall",
-          "persistentUuid": "91f1cba1-5213-4a0d-b8eb-00d2efac249f",
-          "width": 365,
-          "x": 295,
-          "y": -1152,
-          "zOrder": 22,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 414,
+          "height": 303,
           "layer": "Walls",
           "name": "VerticalWall",
           "persistentUuid": "c7f95c1b-f514-453d-ad66-2846da17094e",
           "width": 60,
-          "x": 603,
-          "y": -1150,
+          "x": 515,
+          "y": -987,
           "zOrder": 21,
           "numberProperties": [],
           "stringProperties": [],
@@ -15564,8 +15569,8 @@
           "layer": "Walls",
           "name": "HorizontalWall",
           "persistentUuid": "40471f25-acb9-4591-93b1-c93cae7070be",
-          "width": 340,
-          "x": 605,
+          "width": 798,
+          "x": 147,
           "y": -996,
           "zOrder": 22,
           "numberProperties": [],
@@ -15596,8 +15601,8 @@
           "layer": "Walls",
           "name": "HorizontalWall",
           "persistentUuid": "31ca5aa7-17c7-45be-91cf-e529e3082a9b",
-          "width": 538,
-          "x": 995,
+          "width": 1114,
+          "x": 419,
           "y": -1258,
           "zOrder": 22,
           "numberProperties": [],
@@ -15720,29 +15725,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 522,
-          "layer": "Walls",
-          "name": "VerticalWall",
-          "persistentUuid": "09a6b534-2922-444c-99a1-a6169b3a2083",
-          "width": 60,
-          "x": 1503,
-          "y": -1718,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "depth": 1,
-          "height": 355,
+          "height": 310,
           "layer": "Obstacles",
           "name": "Gas",
           "persistentUuid": "b49483e0-213f-4dca-8730-513216e870e3",
-          "width": 422,
-          "x": 212,
-          "y": 104,
+          "width": 329,
+          "x": 295,
+          "y": 106,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -15789,9 +15778,105 @@
           "name": "Monster",
           "persistentUuid": "bfc480a3-b685-4b22-a163-7b8b3a1f8204",
           "width": 202,
-          "x": 1134,
-          "y": 470,
+          "x": 1288,
+          "y": 102,
           "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 455,
+          "layer": "",
+          "name": "MonsterTrigger",
+          "persistentUuid": "1df84adf-320d-4779-b4ee-df8c21598be6",
+          "width": 935,
+          "x": 651,
+          "y": -9,
+          "zOrder": 27,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 119,
+          "layer": "Text",
+          "name": "Monster_Hit",
+          "persistentUuid": "522f3641-2410-4823-90cd-11c2a50507fc",
+          "width": 1904,
+          "x": 10,
+          "y": 494,
+          "zOrder": 28,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 60,
+          "layer": "Text",
+          "name": "HorizontalWall",
+          "persistentUuid": "e4a89376-568a-433c-baa4-74a4d49a3757",
+          "width": 513,
+          "x": 1370,
+          "y": -1482,
+          "zOrder": 29,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 222,
+          "layer": "",
+          "name": "JumpscareTrigger",
+          "persistentUuid": "debcbf4b-35f8-470e-8d82-4cdf94c811ff",
+          "width": 308,
+          "x": 22,
+          "y": -552,
+          "zOrder": 30,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 1179,
+          "layer": "Jumpscare",
+          "name": "Jumpscare",
+          "persistentUuid": "9346ee33-064d-434e-b0cc-9b53a4aae3e5",
+          "width": 2153,
+          "x": -134,
+          "y": -47,
+          "zOrder": 32,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 175,
+          "layer": "",
+          "name": "JumpscareTrigger2",
+          "persistentUuid": "f4bb6f3c-7823-4f5e-9f37-1e8d807b0877",
+          "width": 135,
+          "x": 42,
+          "y": -1050,
+          "zOrder": 33,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16057,6 +16142,12 @@
             {
               "name": "LightObstacleBehavior",
               "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "cost": 2,
+              "impassable": true,
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior"
             }
           ]
         },
@@ -16073,6 +16164,12 @@
             {
               "name": "LightObstacleBehavior",
               "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ]
         },
@@ -16089,6 +16186,12 @@
             {
               "name": "LightObstacleBehavior",
               "type": "Lighting::LightObstacleBehavior"
+            },
+            {
+              "name": "PathfindingObstacle",
+              "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+              "cost": 2,
+              "impassable": true
             }
           ]
         },
@@ -16104,7 +16207,7 @@
           "animations": []
         },
         {
-          "additive": true,
+          "additive": false,
           "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
           "destroyWhenNoParticles": true,
           "emitterAngleA": 0,
@@ -16156,7 +16259,24 @@
           "updateIfNotVisible": false,
           "variables": [],
           "effects": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "acceleration": 400,
+              "allowDiagonals": true,
+              "angleOffset": 0,
+              "angularMaxSpeed": 180,
+              "cellHeight": 20,
+              "cellWidth": 20,
+              "extraBorder": -20,
+              "gridOffsetX": 0,
+              "gridOffsetY": 0,
+              "maxSpeed": 250,
+              "name": "Pathfinding",
+              "rotateObject": false,
+              "smoothingMaxCellGap": 1,
+              "type": "PathfindingBehavior::PathfindingBehavior"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -16387,6 +16507,392 @@
               ]
             }
           ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "MonsterTrigger",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "assetStoreId": "",
+          "bold": true,
+          "italic": false,
+          "name": "Monster_Hit",
+          "smoothed": true,
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "string": "HIT.... START OVER",
+          "font": "assets/fonts/rainyhearts.ttf",
+          "textAlignment": "center",
+          "characterSize": 100,
+          "color": {
+            "b": 9,
+            "g": 9,
+            "r": 185
+          }
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "JumpscareTrigger",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": true,
+          "assetStoreId": "",
+          "name": "Jumpscare",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [
+            {
+              "name": "ShakeObject_PositionAngle",
+              "type": "ShakeObject::ShakeObject_PositionAngle"
+            }
+          ],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type2/jumpscare.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 0,
+                            "y": 0
+                          },
+                          {
+                            "x": 2360,
+                            "y": 0
+                          },
+                          {
+                            "x": 2360,
+                            "y": 1640
+                          },
+                          {
+                            "x": 0,
+                            "y": 1640
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "JumpscareTrigger2",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16396,10 +16902,19 @@
             "objectName": "World"
           },
           {
+            "objectName": "MonsterTrigger"
+          },
+          {
             "objectName": "MazeTrigger"
           },
           {
             "objectName": "MazeWin"
+          },
+          {
+            "objectName": "JumpscareTrigger"
+          },
+          {
+            "objectName": "JumpscareTrigger2"
           },
           {
             "objectName": "Spotlight"
@@ -16431,6 +16946,12 @@
           },
           {
             "objectName": "Monster"
+          },
+          {
+            "objectName": "Monster_Hit"
+          },
+          {
+            "objectName": "Jumpscare"
           }
         ]
       },
@@ -16466,6 +16987,48 @@
               },
               "parameters": [
                 "Alerts"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Monster_Hit"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Jumpscare"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music.wav",
+                "1",
+                "yes",
+                "0",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\bad_dream.wav",
+                "1",
+                "yes",
+                "25",
+                ""
               ]
             }
           ]
@@ -16791,7 +17354,7 @@
                     "Alerts",
                     "Text",
                     "=",
-                    "\"A maze... a recurring nightmare for Jake. Find your way out without triggering anything.\""
+                    "\"A maze... a recurring nightmare for Jack. Find your way out without triggering anything.\""
                   ]
                 },
                 {
@@ -16896,35 +17459,6 @@
           ]
         },
         {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Mender",
-                "WallCorner",
-                "",
-                "",
-                "yes"
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "SeparateFromObjects"
-              },
-              "parameters": [
-                "Mender",
-                "WallCorner",
-                "yes"
-              ]
-            }
-          ]
-        },
-        {
           "type": "BuiltinCommonInstructions::Comment",
           "color": {
             "b": 109,
@@ -17011,10 +17545,175 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ParticleSystem::StopEmission"
+                    "value": "ParticleSystem::ParticleEmitter::SetMaxParticlesCount"
                   },
                   "parameters": [
-                    "Gas"
+                    "Gas",
+                    "-",
+                    "20"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ParticleSystem::ParticleEmitter::MaxParticlesCount"
+              },
+              "parameters": [
+                "Gas",
+                "<=",
+                "0"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TopDownMovementBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Mender",
+                "TopDownMovement",
+                "=",
+                "400"
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Alerts",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Alerts",
+                "Text",
+                "=",
+                "\"You made it out, but your speed is slightly impacted.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Alerts",
+                "\"Time Visible\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Gas",
+                "Effect"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Monster Obstacle"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "MonsterTrigger",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Monster_Seen",
+                "True"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "GlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Monster_Seen",
+                "True"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "PathfindingBehavior::SetDestination"
+              },
+              "parameters": [
+                "Monster",
+                "Pathfinding",
+                "",
+                "Mender.X() - 16",
+                "Mender.Y() + 62.5"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "PosX"
+                  },
+                  "parameters": [
+                    "Mender",
+                    ">",
+                    "Monster.X()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
+                  },
+                  "parameters": [
+                    "Monster",
+                    "Flippable",
+                    "yes"
                   ]
                 }
               ]
@@ -17024,54 +17723,212 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ParticleSystem::NoMoreParticles"
+                    "value": "PosX"
                   },
                   "parameters": [
-                    "Gas"
+                    "Mender",
+                    "<",
+                    "Monster.X()"
                   ]
                 }
               ],
               "actions": [
                 {
                   "type": {
-                    "value": "TopDownMovementBehavior::MaxSpeed"
+                    "value": "FlippableCapability::FlippableBehavior::FlipX"
                   },
                   "parameters": [
-                    "Mender",
-                    "TopDownMovement",
-                    "=",
-                    "250"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Montre"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "TextContainerCapability::TextContainerBehavior::SetValue"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "Text",
-                    "=",
-                    "\"You made it out, but your speed is impacted.\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ResetObjectTimer"
-                  },
-                  "parameters": [
-                    "Alerts",
-                    "\"Time Visible\""
+                    "Monster",
+                    "Flippable",
+                    "no"
                   ]
                 }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "Monster",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Monster_Hit",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "SetGlobalVariableAsBoolean"
+              },
+              "parameters": [
+                "Monster_Seen",
+                "False"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Puzzle 2\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Jumpscare Trap"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "JumpscareTrigger",
+                "",
+                "",
+                "no"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "TextContainerCapability::TextContainerBehavior::SetValue"
+              },
+              "parameters": [
+                "Alerts",
+                "Text",
+                "=",
+                "\"You're about to enter a narrow passage! Don't touch the walls.... or restart.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Alerts",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "Alerts",
+                "\"Time Visible\""
+              ]
+            },
+            {
+              "type": {
+                "value": "PathfindingBehavior::MaxSpeed"
+              },
+              "parameters": [
+                "Monster",
+                "Pathfinding",
+                "=",
+                "0"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "JumpscareTrigger2",
+                "",
+                "",
+                "yes"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Montre"
+              },
+              "parameters": [
+                "Jumpscare",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ShakeObject::ShakeObject_PositionAngle::ShakeObject_PositionAngle"
+              },
+              "parameters": [
+                "Jumpscare",
+                "ShakeObject_PositionAngle",
+                "0.5",
+                "20",
+                "-20",
+                "0",
+                "0.08",
+                "yes",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "Wait"
+              },
+              "parameters": [
+                "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "PushScene"
+              },
+              "parameters": [
+                "",
+                "\"Puzzle 2\""
               ]
             }
           ]
@@ -17104,6 +17961,32 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\bad_dream.wav",
+                "1",
+                "yes",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music.wav",
+                "1",
+                "yes",
+                "25",
+                "1"
+              ]
+            },
             {
               "type": {
                 "value": "Scene"
@@ -17155,7 +18038,7 @@
                     "Alerts",
                     "Text",
                     "=",
-                    "\"You made it! Jake can sleep peacefully now. The disruption has been resolved.\""
+                    "\"You made it! Jack can sleep peacefully now. The disruption has been resolved.\""
                   ]
                 },
                 {
@@ -17492,6 +18375,38 @@
               "booleanParameters": {}
             }
           ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Jumpscare",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
         }
       ],
       "behaviorsSharedData": [
@@ -17516,6 +18431,14 @@
           "type": "OpacityCapability::OpacityBehavior"
         },
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior"
+        },
+        {
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        },
+        {
           "name": "RemapForTopdown",
           "type": "BehaviorRemapper::RemapForTopdown"
         },
@@ -17526,6 +18449,10 @@
         {
           "name": "Scale",
           "type": "ScalableCapability::ScalableBehavior"
+        },
+        {
+          "name": "ShakeObject_PositionAngle",
+          "type": "ShakeObject::ShakeObject_PositionAngle"
         },
         {
           "name": "ShakeObject_PositionAngleScale",
