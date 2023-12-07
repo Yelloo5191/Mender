@@ -2490,6 +2490,60 @@
         "preloadAsSound": false,
         "preloadInCache": false,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/enemy/sleepparalysis1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/enemy/sleepparalysis1.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/enemy/sleepparalysis2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/enemy/sleepparalysis2.png",
+        "smoothed": false,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/enemy/sleepparalysis3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/enemy/sleepparalysis3.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/enemy/sleepparalysis4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/enemy/sleepparalysis4.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/enemy/sleepparalysis5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/enemy/sleepparalysis5.png",
+        "smoothed": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/disruptions/type2/enemy/sleepparalysis6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets/disruptions/type2/enemy/sleepparalysis6.png",
+        "smoothed": false,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -5107,7 +5161,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.12832159414437008,
+        "zoomFactor": 0.0890976219664505,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15682,13 +15736,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 342,
+          "height": 355,
           "layer": "Obstacles",
           "name": "Gas",
           "persistentUuid": "b49483e0-213f-4dca-8730-513216e870e3",
-          "width": 342,
-          "x": 280,
-          "y": 115,
+          "width": 422,
+          "x": 212,
+          "y": 104,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -15729,14 +15783,14 @@
         {
           "angle": 0,
           "customSize": true,
-          "depth": 1,
-          "height": 522,
-          "layer": "",
-          "name": "MonsterTrigger",
-          "persistentUuid": "b465383e-c80d-498e-82ce-dd61c7a7f118",
-          "width": 968,
-          "x": 626,
-          "y": -27,
+          "depth": 4,
+          "height": 231,
+          "layer": "Enemy",
+          "name": "Monster",
+          "persistentUuid": "bfc480a3-b685-4b22-a163-7b8b3a1f8204",
+          "width": 202,
+          "x": 1134,
+          "y": 470,
           "zOrder": 26,
           "numberProperties": [],
           "stringProperties": [],
@@ -16050,7 +16104,7 @@
           "animations": []
         },
         {
-          "additive": false,
+          "additive": true,
           "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
           "destroyWhenNoParticles": true,
           "emitterAngleA": 0,
@@ -16095,9 +16149,9 @@
           "behaviors": []
         },
         {
-          "adaptCollisionMaskAutomatically": false,
+          "adaptCollisionMaskAutomatically": true,
           "assetStoreId": "",
-          "name": "MonsterTrigger",
+          "name": "Monster",
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
@@ -16109,12 +16163,12 @@
               "useMultipleDirections": false,
               "directions": [
                 {
-                  "looping": false,
+                  "looping": true,
                   "timeBetweenFrames": 0.08,
                   "sprites": [
                     {
                       "hasCustomCollisionMask": true,
-                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "image": "assets/disruptions/type2/enemy/sleepparalysis1.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -16130,60 +16184,200 @@
                       "customCollisionMask": [
                         [
                           {
-                            "x": 1.75,
-                            "y": 11.5
+                            "x": 3,
+                            "y": 1
                           },
                           {
-                            "x": 0.5,
-                            "y": 8
+                            "x": 54,
+                            "y": 1
                           },
                           {
-                            "x": 1.25,
-                            "y": 4.75
+                            "x": 54,
+                            "y": 63
                           },
                           {
-                            "x": 2.5,
-                            "y": 2.5
+                            "x": 3,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type2/enemy/sleepparalysis2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
                           },
                           {
-                            "x": 5.25,
-                            "y": 0.75
+                            "x": 54,
+                            "y": 1
                           },
                           {
-                            "x": 8,
-                            "y": 0
+                            "x": 54,
+                            "y": 63
                           },
                           {
-                            "x": 10.75,
-                            "y": 0.75
+                            "x": 3,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type2/enemy/sleepparalysis3.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
                           },
                           {
-                            "x": 13,
-                            "y": 2
+                            "x": 54,
+                            "y": 1
                           },
                           {
-                            "x": 14.75,
-                            "y": 4.75
+                            "x": 54,
+                            "y": 63
                           },
                           {
-                            "x": 15.5,
-                            "y": 8.5
+                            "x": 3,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type2/enemy/sleepparalysis4.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
                           },
                           {
-                            "x": 14.5,
-                            "y": 11.5
+                            "x": 54,
+                            "y": 1
                           },
                           {
-                            "x": 12.5,
-                            "y": 14
+                            "x": 54,
+                            "y": 63
                           },
                           {
-                            "x": 8.5,
-                            "y": 15
+                            "x": 3,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type2/enemy/sleepparalysis5.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
                           },
                           {
-                            "x": 3.5,
-                            "y": 14
+                            "x": 54,
+                            "y": 1
+                          },
+                          {
+                            "x": 54,
+                            "y": 63
+                          },
+                          {
+                            "x": 3,
+                            "y": 63
+                          }
+                        ]
+                      ]
+                    },
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "assets/disruptions/type2/enemy/sleepparalysis6.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 3,
+                            "y": 1
+                          },
+                          {
+                            "x": 54,
+                            "y": 1
+                          },
+                          {
+                            "x": 54,
+                            "y": 63
+                          },
+                          {
+                            "x": 3,
+                            "y": 63
                           }
                         ]
                       ]
@@ -16203,9 +16397,6 @@
           },
           {
             "objectName": "MazeTrigger"
-          },
-          {
-            "objectName": "MonsterTrigger"
           },
           {
             "objectName": "MazeWin"
@@ -16237,6 +16428,9 @@
           },
           {
             "objectName": "Gas"
+          },
+          {
+            "objectName": "Monster"
           }
         ]
       },
@@ -16504,6 +16698,18 @@
                 "Mender",
                 "",
                 "\"Lighting\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Mender",
+                "",
+                "\"Enemy\"",
                 ""
               ]
             },
@@ -16805,12 +17011,10 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ParticleSystem::ParticleEmitter::SetMaxParticlesCount"
+                    "value": "ParticleSystem::StopEmission"
                   },
                   "parameters": [
-                    "Gas",
-                    "-",
-                    "20"
+                    "Gas"
                   ]
                 }
               ]
@@ -16820,12 +17024,10 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ParticleSystem::ParticleEmitter::MaxParticlesCount"
+                    "value": "ParticleSystem::NoMoreParticles"
                   },
                   "parameters": [
-                    "Gas",
-                    "<=",
-                    "0"
+                    "Gas"
                   ]
                 }
               ],
@@ -16838,7 +17040,7 @@
                     "Mender",
                     "TopDownMovement",
                     "=",
-                    "400"
+                    "250"
                   ]
                 },
                 {
@@ -16858,7 +17060,7 @@
                     "Alerts",
                     "Text",
                     "=",
-                    "\"You made it out, but your speed is slightly impacted\""
+                    "\"You made it out, but your speed is impacted.\""
                   ]
                 },
                 {
@@ -16871,56 +17073,6 @@
                   ]
                 }
               ]
-            }
-          ]
-        },
-        {
-          "type": "BuiltinCommonInstructions::Comment",
-          "color": {
-            "b": 109,
-            "g": 230,
-            "r": 255,
-            "textB": 0,
-            "textG": 0,
-            "textR": 0
-          },
-          "comment": "Monster Spawn\n"
-        },
-        {
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "Mender",
-                "MonsterTrigger",
-                "",
-                "",
-                ""
-              ]
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "value": "MettreXY"
-              },
-              "parameters": [
-                "Monster",
-                "=",
-                "Mender.X()",
-                "=",
-                "Mender.Y() + 70"
-              ]
-            }
-          ],
-          "events": [
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": []
             }
           ]
         },
@@ -17176,6 +17328,38 @@
           "isLightingLayer": false,
           "isLocked": false,
           "name": "Player",
+          "renderingType": "",
+          "visibility": true,
+          "cameras": [],
+          "effects": [
+            {
+              "effectType": "Scene3D::HemisphereLight",
+              "name": "3D Light",
+              "doubleParameters": {
+                "elevation": 45,
+                "intensity": 1,
+                "rotation": 0
+              },
+              "stringParameters": {
+                "groundColor": "64;64;64",
+                "skyColor": "255;255;255",
+                "top": "Y-"
+              },
+              "booleanParameters": {}
+            }
+          ]
+        },
+        {
+          "ambientLightColorB": 200,
+          "ambientLightColorG": 200,
+          "ambientLightColorR": 200,
+          "camera3DFarPlaneDistance": 10000,
+          "camera3DFieldOfView": 45,
+          "camera3DNearPlaneDistance": 3,
+          "followBaseLayerCamera": false,
+          "isLightingLayer": false,
+          "isLocked": false,
+          "name": "Enemy",
           "renderingType": "",
           "visibility": true,
           "cameras": [],
