@@ -16155,119 +16155,6 @@
                 "Alerts"
               ]
             }
-          ],
-          "events": [
-            {
-              "infiniteLoopWarning": true,
-              "type": "BuiltinCommonInstructions::While",
-              "whileConditions": [
-                {
-                  "type": {
-                    "value": "MusicCanalVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    ">=",
-                    "0"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "song",
-                    "!=",
-                    "\"bad dream\""
-                  ]
-                }
-              ],
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVolumeMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "-",
-                    "30*TimeDelta()"
-                  ]
-                }
-              ]
-            },
-            {
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "PlayMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "assets\\music\\bad_dream.wav",
-                    "1",
-                    "yes",
-                    "25",
-                    "1"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ModVarSceneTxt"
-                  },
-                  "parameters": [
-                    "song",
-                    "=",
-                    "\"bad dream\""
-                  ]
-                }
-              ]
-            },
-            {
-              "infiniteLoopWarning": true,
-              "type": "BuiltinCommonInstructions::While",
-              "whileConditions": [
-                {
-                  "type": {
-                    "value": "MusicCanalVolume"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "<=",
-                    "25"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "VarSceneTxt"
-                  },
-                  "parameters": [
-                    "song",
-                    "=",
-                    "\"bad dream\""
-                  ]
-                }
-              ],
-              "conditions": [],
-              "actions": [
-                {
-                  "type": {
-                    "value": "ModVolumeMusicCanal"
-                  },
-                  "parameters": [
-                    "",
-                    "1",
-                    "+",
-                    "30*TimeDelta()"
-                  ]
-                }
-              ]
-            }
           ]
         },
         {
@@ -17202,9 +17089,9 @@
           ]
         },
         {
-          "ambientLightColorB": 0,
-          "ambientLightColorG": 0,
-          "ambientLightColorR": 0,
+          "ambientLightColorB": 14,
+          "ambientLightColorG": 20,
+          "ambientLightColorR": 37,
           "camera3DFarPlaneDistance": 10000,
           "camera3DFieldOfView": 45,
           "camera3DNearPlaneDistance": 3,
@@ -17215,18 +17102,7 @@
           "renderingType": "",
           "visibility": true,
           "cameras": [],
-          "effects": [
-            {
-              "effectType": "BlendingMode",
-              "name": "Effect",
-              "doubleParameters": {
-                "blendmode": 1,
-                "opacity": 1
-              },
-              "stringParameters": {},
-              "booleanParameters": {}
-            }
-          ]
+          "effects": []
         },
         {
           "ambientLightColorB": 200,
