@@ -5107,7 +5107,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": true,
-        "zoomFactor": 0.0890976219664505,
+        "zoomFactor": 0.12832159414437008,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -15725,6 +15725,22 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 522,
+          "layer": "",
+          "name": "MonsterTrigger",
+          "persistentUuid": "b465383e-c80d-498e-82ce-dd61c7a7f118",
+          "width": 968,
+          "x": 626,
+          "y": -27,
+          "zOrder": 26,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -16077,6 +16093,106 @@
           "variables": [],
           "effects": [],
           "behaviors": []
+        },
+        {
+          "adaptCollisionMaskAutomatically": false,
+          "assetStoreId": "",
+          "name": "MonsterTrigger",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "effects": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": true,
+                      "image": "998e0aec3ae57e2bafb3d52e26ab64b10153d411f90c62198effb90b18ecd603_Transparent.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": [
+                        [
+                          {
+                            "x": 1.75,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 0.5,
+                            "y": 8
+                          },
+                          {
+                            "x": 1.25,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 2.5,
+                            "y": 2.5
+                          },
+                          {
+                            "x": 5.25,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 8,
+                            "y": 0
+                          },
+                          {
+                            "x": 10.75,
+                            "y": 0.75
+                          },
+                          {
+                            "x": 13,
+                            "y": 2
+                          },
+                          {
+                            "x": 14.75,
+                            "y": 4.75
+                          },
+                          {
+                            "x": 15.5,
+                            "y": 8.5
+                          },
+                          {
+                            "x": 14.5,
+                            "y": 11.5
+                          },
+                          {
+                            "x": 12.5,
+                            "y": 14
+                          },
+                          {
+                            "x": 8.5,
+                            "y": 15
+                          },
+                          {
+                            "x": 3.5,
+                            "y": 14
+                          }
+                        ]
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "objectsFolderStructure": {
@@ -16087,6 +16203,9 @@
           },
           {
             "objectName": "MazeTrigger"
+          },
+          {
+            "objectName": "MonsterTrigger"
           },
           {
             "objectName": "MazeWin"
@@ -16765,12 +16884,45 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Monster Chaser\n"
+          "comment": "Monster Spawn\n"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
-          "actions": []
+          "conditions": [
+            {
+              "type": {
+                "value": "CollisionNP"
+              },
+              "parameters": [
+                "Mender",
+                "MonsterTrigger",
+                "",
+                "",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "Monster",
+                "=",
+                "Mender.X()",
+                "=",
+                "Mender.Y() + 70"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ]
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
