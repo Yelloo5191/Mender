@@ -15682,13 +15682,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 355,
+          "height": 342,
           "layer": "Obstacles",
           "name": "Gas",
           "persistentUuid": "b49483e0-213f-4dca-8730-513216e870e3",
-          "width": 422,
-          "x": 212,
-          "y": 104,
+          "width": 342,
+          "x": 280,
+          "y": 115,
           "zOrder": 23,
           "numberProperties": [],
           "stringProperties": [],
@@ -16034,7 +16034,7 @@
           "animations": []
         },
         {
-          "additive": true,
+          "additive": false,
           "assetStoreId": "8b9d676aee2e7b4e359522aecea263890ba30f957c5665d63d459675b12980f2",
           "destroyWhenNoParticles": true,
           "emitterAngleA": 0,
@@ -16686,10 +16686,12 @@
               "actions": [
                 {
                   "type": {
-                    "value": "ParticleSystem::StopEmission"
+                    "value": "ParticleSystem::ParticleEmitter::SetMaxParticlesCount"
                   },
                   "parameters": [
-                    "Gas"
+                    "Gas",
+                    "-",
+                    "20"
                   ]
                 }
               ]
@@ -16699,10 +16701,12 @@
               "conditions": [
                 {
                   "type": {
-                    "value": "ParticleSystem::NoMoreParticles"
+                    "value": "ParticleSystem::ParticleEmitter::MaxParticlesCount"
                   },
                   "parameters": [
-                    "Gas"
+                    "Gas",
+                    "<=",
+                    "0"
                   ]
                 }
               ],
@@ -16715,7 +16719,7 @@
                     "Mender",
                     "TopDownMovement",
                     "=",
-                    "250"
+                    "400"
                   ]
                 },
                 {
@@ -16735,7 +16739,7 @@
                     "Alerts",
                     "Text",
                     "=",
-                    "\"You made it out, but your speed is impacted.\""
+                    "\"You made it out, but your speed is slightly impacted\""
                   ]
                 },
                 {
@@ -16750,6 +16754,23 @@
               ]
             }
           ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "Monster Chaser\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
         },
         {
           "type": "BuiltinCommonInstructions::Comment",
