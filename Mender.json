@@ -3300,7 +3300,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 1.2856211236782442,
+        "zoomFactor": 0.16448391304937582,
         "windowMask": true
       },
       "objectsGroups": [],
@@ -3433,11 +3433,11 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1184,
+          "height": 1213,
           "layer": "",
           "name": "Cinematic",
           "persistentUuid": "d77ec069-a094-43ea-8bf9-ad63b6e07910",
-          "width": 2105,
+          "width": 2230,
           "x": 0,
           "y": 0,
           "zOrder": 1,
@@ -3449,13 +3449,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 125,
+          "height": 105,
           "layer": "Text",
           "name": "dialogue",
           "persistentUuid": "12150fbd-c042-462c-83dc-6645fdad34e2",
-          "width": 448,
-          "x": 160,
-          "y": 899,
+          "width": 417,
+          "x": 191,
+          "y": 892,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -3532,8 +3532,8 @@
           "layer": "",
           "name": "Background",
           "persistentUuid": "cea390de-62ba-40f9-8a77-a8b706742e31",
-          "width": 2091,
-          "x": -11,
+          "width": 2331,
+          "x": -146,
           "y": -24,
           "zOrder": 2,
           "numberProperties": [],
@@ -4680,42 +4680,6 @@
                 "yes",
                 "25",
                 "1"
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Cinematic",
-                "",
-                "",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Cinematic",
-                "",
-                "\"Text\"",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Cinematic",
-                "",
-                "\"Transition\"",
-                ""
               ]
             }
           ]
@@ -20784,13 +20748,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1282,
+          "height": 1398,
           "layer": "",
           "name": "Credits",
           "persistentUuid": "b3b183dc-dfa6-452e-a020-5640a0350e2b",
-          "width": 2205,
-          "x": -145,
-          "y": -72,
+          "width": 2370,
+          "x": -219,
+          "y": -146,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20881,18 +20845,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "value": "CentreCamera"
-              },
-              "parameters": [
-                "",
-                "Credits",
-                "",
-                "",
-                ""
-              ]
-            },
             {
               "type": {
                 "value": "PlayMusicCanal"
@@ -21164,12 +21116,24 @@
             },
             {
               "type": {
-                "value": "CentreCamera"
+                "value": "SetCameraCenterX"
               },
               "parameters": [
                 "",
-                "NewSprite",
+                "=",
+                "NewSprite.CenterX()",
                 "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "SetCameraCenterY"
+              },
+              "parameters": [
+                "",
+                "=",
+                "NewSprite.CenterY()",
                 "",
                 ""
               ]
