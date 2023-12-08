@@ -3291,7 +3291,7 @@
       "title": "",
       "v": 209,
       "uiSettings": {
-        "grid": true,
+        "grid": false,
         "gridType": "rectangular",
         "gridWidth": 32,
         "gridHeight": 32,
@@ -3299,9 +3299,9 @@
         "gridOffsetY": 0,
         "gridColor": 10401023,
         "gridAlpha": 0.8,
-        "snap": true,
-        "zoomFactor": 0.36458333333333454,
-        "windowMask": false
+        "snap": false,
+        "zoomFactor": 1.2856211236782442,
+        "windowMask": true
       },
       "objectsGroups": [],
       "variables": [
@@ -3510,14 +3510,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "depth": 1,
+          "height": 56,
           "layer": "",
           "name": "helper",
           "persistentUuid": "6dc42070-218c-4a81-b0e1-bf963facafff",
-          "width": 0,
-          "x": 547,
-          "y": 1028,
+          "width": 44,
+          "x": 520,
+          "y": 1009,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -3954,7 +3955,7 @@
           "string": "e",
           "font": "assets/fonts/rainyhearts.ttf",
           "textAlignment": "left",
-          "characterSize": 20,
+          "characterSize": 50,
           "color": {
             "b": 255,
             "g": 255,
@@ -4679,6 +4680,42 @@
                 "yes",
                 "25",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Cinematic",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Cinematic",
+                "",
+                "\"Text\"",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Cinematic",
+                "",
+                "\"Transition\"",
+                ""
               ]
             }
           ]
@@ -15998,6 +16035,7 @@
           "effects": [],
           "behaviors": [
             {
+              "extraBorder": 0,
               "name": "Pathfinding",
               "type": "PathfindingBehavior::PathfindingBehavior",
               "acceleration": 400,
@@ -16006,7 +16044,6 @@
               "angularMaxSpeed": 180,
               "cellHeight": 20,
               "cellWidth": 20,
-              "extraBorder": -20,
               "gridOffsetX": 0,
               "gridOffsetY": 0,
               "maxSpeed": 250,
@@ -17095,17 +17132,7 @@
           "events": [
             {
               "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "value": "SceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "PuzzleState.SeenPuzzle",
-                    "False"
-                  ]
-                }
-              ],
+              "conditions": [],
               "actions": [
                 {
                   "type": {
@@ -17134,15 +17161,6 @@
                   "parameters": [
                     "Alerts",
                     ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "SetSceneVariableAsBoolean"
-                  },
-                  "parameters": [
-                    "PuzzleState.SeenPuzzle",
-                    "True"
                   ]
                 }
               ]
@@ -17544,6 +17562,16 @@
             },
             {
               "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Monster",
+                "Pathfinding",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "SetGlobalVariableAsBoolean"
               },
               "parameters": [
@@ -17746,6 +17774,16 @@
                 "yes",
                 "25",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Monster",
+                "Pathfinding",
+                ""
               ]
             },
             {
@@ -19849,6 +19887,32 @@
                 "Alerts",
                 ""
               ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music.wav",
+                "1",
+                "yes",
+                "0",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\bad_dream.wav",
+                "1",
+                "yes",
+                "25",
+                ""
+              ]
             }
           ]
         },
@@ -20171,6 +20235,30 @@
             },
             {
               "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Spotlight"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "JakeLight"
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Timer"
+              ]
+            },
+            {
+              "type": {
                 "value": "SetSceneVariableAsBoolean"
               },
               "parameters": [
@@ -20216,6 +20304,44 @@
             "textG": 0,
             "textR": 0
           },
+          "comment": "For demo\n"
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "Escape"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"End\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
           "comment": "How long to survive"
         },
         {
@@ -20236,6 +20362,25 @@
           "actions": [
             {
               "type": {
+                "value": "Delete"
+              },
+              "parameters": [
+                "Bullet",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "ActivateBehavior"
+              },
+              "parameters": [
+                "Jake",
+                "Pathfinding",
+                ""
+              ]
+            },
+            {
+              "type": {
                 "value": "TextContainerCapability::TextContainerBehavior::SetValue"
               },
               "parameters": [
@@ -20243,6 +20388,14 @@
                 "Text",
                 "=",
                 "\"You're done! Jack is saved.\""
+              ]
+            },
+            {
+              "type": {
+                "value": "Cache"
+              },
+              "parameters": [
+                "Timer"
               ]
             },
             {
@@ -20269,6 +20422,19 @@
               },
               "parameters": [
                 "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\bad_dream.wav",
+                "1",
+                "yes",
+                "0",
+                ""
               ]
             },
             {
@@ -20608,7 +20774,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.24488383633725472,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20618,13 +20784,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1080,
+          "height": 1282,
           "layer": "",
           "name": "Credits",
           "persistentUuid": "b3b183dc-dfa6-452e-a020-5640a0350e2b",
-          "width": 1933,
-          "x": 0,
-          "y": 0,
+          "width": 2205,
+          "x": -145,
+          "y": -72,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20701,7 +20867,48 @@
           }
         ]
       },
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "Credits",
+                "",
+                "",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "PlayMusicCanal"
+              },
+              "parameters": [
+                "",
+                "assets\\music\\music.wav",
+                "1",
+                "yes",
+                "25",
+                ""
+              ]
+            }
+          ]
+        }
+      ],
       "layers": [
         {
           "ambientLightColorB": 200,
@@ -20810,7 +21017,7 @@
         "gridColor": 10401023,
         "gridAlpha": 0.8,
         "snap": false,
-        "zoomFactor": 0.3645833333333333,
+        "zoomFactor": 0.23689563725446555,
         "windowMask": false
       },
       "objectsGroups": [],
@@ -20820,13 +21027,13 @@
           "angle": 0,
           "customSize": true,
           "depth": 1,
-          "height": 1126,
+          "height": 1197,
           "layer": "",
           "name": "NewSprite",
           "persistentUuid": "5ac2c119-1405-48c1-bac4-f1482087bf29",
-          "width": 1990,
-          "x": -21,
-          "y": -22,
+          "width": 2157,
+          "x": -74,
+          "y": -79,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -20841,8 +21048,8 @@
           "name": "Alerts",
           "persistentUuid": "c419657e-c026-437c-9a09-7021f6d1ca23",
           "width": 1912,
-          "x": 4,
-          "y": 1019,
+          "x": -16,
+          "y": 941,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -20922,16 +21129,98 @@
       "events": [
         {
           "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [],
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
           "actions": [
             {
               "type": {
-                "value": "Wait"
+                "value": "PlayMusicCanal"
               },
               "parameters": [
-                "5"
+                "",
+                "assets\\music\\music.wav",
+                "1",
+                "yes",
+                "25",
+                ""
               ]
             },
+            {
+              "type": {
+                "value": "ResetObjectTimer"
+              },
+              "parameters": [
+                "NewSprite",
+                "\"zoom\""
+              ]
+            },
+            {
+              "type": {
+                "value": "CentreCamera"
+              },
+              "parameters": [
+                "",
+                "NewSprite",
+                "",
+                "",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "NewSprite",
+                "\"zoom\"",
+                "<=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "NewSprite",
+                "Scale",
+                "*",
+                "1.0001"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareObjectTimer"
+              },
+              "parameters": [
+                "NewSprite",
+                "\"zoom\"",
+                ">",
+                "5"
+              ]
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "value": "Scene"
